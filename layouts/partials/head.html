@@ -8,6 +8,7 @@
 {{- with .OutputFormats.Get "RSS" }}
   <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" >
   <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" >
+  <a rel="me" href="https://fosstodon.org/@nattukaran">Mastodon</a>
 {{- end -}}
 
 {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
