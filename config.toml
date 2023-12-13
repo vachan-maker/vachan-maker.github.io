@@ -1,0 +1,43 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
+    theme = "nightfall"
+[params]
+  user = "Vachan S Panicker"
+  hostname = " "
+    [params.author]
+    name = "Vachan S Panicker"
+    email = "vachan@tutanota.com"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 1
+    url = "/posts"
+
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/vachan-maker"
+
+[[params.social]]
+key = 1
+name = "mastodon"
+url = "https://fosstodon.org/@nattukaran"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:vachan@tutanota.com"
+
+[[params.social]]
+key = 3
+name = "pixelfed"
+url = "https://pixelfed.social/V4vachan"
+
+
