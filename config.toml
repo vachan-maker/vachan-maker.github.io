@@ -20,6 +20,7 @@
     name = "about"
     weight = 0
     url = "/about"
+
 [[params.social]]
 key = 0
 name = "github"
@@ -39,5 +40,10 @@ url = "mailto:vachan@tutanota.com"
 key = 3
 name = "pixelfed"
 url = "https://pixelfed.social/V4vachan"
+
+[[params.social]]
+key = 4
+name = "RSS Feed"
+url = "/index.xml"
 
 
