@@ -3,6 +3,7 @@ title = 'Done with third semester'
 draft = false
 date = '2024-01-18'
 tags = ['college']
+description = 'My third semester in college in a nutshell'
 +++
 Hey everyone!
 

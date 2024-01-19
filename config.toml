@@ -6,6 +6,7 @@
 [params]
   user = "Vachan S Panicker"
   hostname = " "
+  sitedescription = "Hey there! You can read my posts, know more about me and get in touch with me"
     [params.author]
     name = "Vachan S Panicker"
     email = "vachan@tutanota.com"
