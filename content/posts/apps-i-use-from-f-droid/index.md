@@ -31,5 +31,7 @@ Prior to using Aegis, I used Authy for storing my TOTP tokens. What I loved abou
 Tusky is my preferred client app for [Mastodon](https://en.wikipedia.org/wiki/Mastodon_(social_network)). If you don’t know what Mastodon is, I highly recommend you to check it [out](https://joinmastodon.org/). Yes, the official Mastodon app is good but I just can’t get myself to stick with the official app.
 
 ## [Simple Keyboard](https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/)
-If you look through Google Play and F-droid, you can find keyboards with a lot of features like GIF integration, sticker generation, etc. Simple keyboard is basically the opposite to this. It is a keyboard and nothing more. No emojis, no spell checker and no extra features. 
+If you look through Google Play and F-droid, you can find keyboards with a lot of features like GIF integration, sticker generation, etc. Simple keyboard is basically the opposite to this. It is a keyboard and nothing more. No emojis, no spell checker and no extra features.
+
+This is post 2 of [#100DaystoOffload](https://100daystooffload.com/)
 
