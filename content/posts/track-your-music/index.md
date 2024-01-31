@@ -1,12 +1,12 @@
 +++
 title =  'ListenBrainz - A tool for music tracking'
-draft = true
+draft = false
 date = 2024-01-31
-description = 'I use ListenBrainz to track my music playback history. This post highlights what is cool about the tool and how you can get started with the service'
+description = 'I use ListenBrainz to track my music playback history. Here are some cool things about it.'
 +++
 Listenbrainz is a service which you can use to track music that you listen to. It is an alternative to Last.fm. For the past few months, I  have been using ListenBrainz and I really enjoy using it. 
 
-The great thing about this service is that most of the data is public and can be used by anyone for free. Also, no account is required for browsing through the global stats.
+The great thing about this service is that most of the data is public and can be used by anyone for free. Also, no account is required for browsing through the [global stats](https://listenbrainz.org/statistics/?range=week).
 
 ## So what is cool about ListenBrainz?
  - My favorite thing about ListenBrainz is the statistics it generates. It highlights top artists, albums and tracks that I listened to. It also generates a map that highlights the countries from which I've been jamming songs from. I love looking at the data, it is fun.
