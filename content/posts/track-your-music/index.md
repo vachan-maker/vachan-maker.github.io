@@ -29,7 +29,7 @@ If you use Spotify then you can directly connect your account with ListenBrainz 
 
 You can also use plugins with VLC/MPV or a music player that has ListenBrainz integration.
 
-If you are a nerd and you love looking at beautifully presented data and fancy graphs or you just want to gain insight into your music listening habits then ListenBrainz is a great service.
+If you are a nerd and you love looking at beautifully presented data and fancy graphs or you just want to gain insight into your music listening habits then ListenBrainz is a great option.
 
 This is day 3 of [#100DaystoOffload](https://100daystooffload.com/)
 
