@@ -4,7 +4,7 @@
     min = "0.80.0"
     theme = "nightfall"
 [params]
-  user = "Vachan S Panicker"
+  user = "vachan"
   hostname = " "
   sitedescription = "Hey there! You can read my posts, know more about me and get in touch with me"
     [params.author]
@@ -24,22 +24,22 @@
 
 [[params.social]]
 key = 0
-name = "github"
+name = "GitHub"
 url = "https://github.com/vachan-maker"
 
 [[params.social]]
 key = 1
-name = "mastodon"
+name = "Mastodon"
 url = "https://fosstodon.org/@nattukaran"
 
 [[params.social]]
 key = 2
-name = "email"
+name = "E-mail"
 url = "mailto:vachan@tutanota.com"
 
 [[params.social]]
 key = 3
-name = "pixelfed"
+name = "PixelFed"
 url = "https://pixelfed.social/V4vachan"
 
 [[params.social]]

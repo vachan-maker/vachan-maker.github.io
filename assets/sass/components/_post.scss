@@ -9,6 +9,7 @@
   color: $orange;
   text-transform: capitalize;
   font-family: $fontHeader;
+  font-size: 1.25rem;
   margin: 0;
 }
 
@@ -45,9 +46,6 @@
   text-decoration: none;
 }
 
-a,
-a:link,
-a:visited,
-a:hover,
-a:active{
-}
+a:hover {
+  color: $link_hover_color;
+};
