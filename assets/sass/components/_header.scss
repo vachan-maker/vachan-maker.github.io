@@ -31,15 +31,22 @@
         color: $white;
         text-decoration: none;
       }
+      a:hover {
+      color: $lightpurple;
+      }
     }
   }
 }
-
 .terminal {
+  font-size: 1em;
+}
+.terminal a{
   color: $white;
   text-decoration: none;
 }
-
+.terminal a:hover {
+  color: #ebcb8b;
+}
 .hamb {
   cursor: pointer;
   float: right;
