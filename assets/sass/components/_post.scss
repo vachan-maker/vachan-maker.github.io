@@ -14,7 +14,11 @@
 }
 
 .postHeader {
-  overflow: hidden;
+ overflow:hidden;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: baseline;
 }
 
 .postsList {
