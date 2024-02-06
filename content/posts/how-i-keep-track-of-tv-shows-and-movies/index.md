@@ -2,6 +2,7 @@
 title = 'How I keep track of tv shows, anime and movies'
 date = 2024-02-06
 draft = false
+description = "Just a quick little post on how I keep track of what I watch"
 +++
 Before joining college, I usually didn't watch any TV shows or anime and I would watch a movie only once in a while. However after entering college, I discovered that most of my friends were really into shows and anime and they would urge me to watch stuff.
 
