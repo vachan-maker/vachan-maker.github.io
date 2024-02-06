@@ -14,4 +14,6 @@ If you didn't know already, my website is built using [Hugo](https://gohugo.io/)
 
 Making and testing these changes did take a few hours. But I am happy how it turned out in the end. If you have any suggestions, please do send me an e-mail or message me through Mastodon. 
 
+Edit(Feb 3, 2024) : If you want to see what my website orginally looked like, you can view my site on the [Wayback Machine](https://web.archive.org/web/20240130051947/https://vachan-maker.github.io/posts)
+
 This is day 4 of [#100daystoOffload](https://100daystooffload.com/)
