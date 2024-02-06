@@ -10,7 +10,7 @@ Since I watched episodes from different shows, I often lost track of which episo
 ## TV Shows & Movies
 
 ### Trakt
-For tracking TV Shows and movies (no anime here), I use a platform called [Trakt](https://trakt.tv) and it is great. Trakt can also help you share and discover new content. You can create custom lists as well. 
+For tracking TV Shows and movies (no anime here), I use a platform called [Trakt](https://trakt.tv) and it is great. Trakt can also help you share and discover new content.
 
 Trakt has an official mobile app for Android and iOS. But there are also a bunch of third party apps from the community. I personlly use an app called [Showly](https://github.com/1RandomDev/showly-oss) on my Android phone. Whenever, I finish watching an episode or movie, I open the app and mark the episode or movie as watched. Then the app syncs the data instantly with Trakt.
 
