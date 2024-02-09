@@ -2,6 +2,7 @@
 title = 'Fourth semester'
 date = 2024-02-09
 draft = false
+description = 'All about the start of a new semester in college'
 +++
 I still find it hard to believe that I am already in the fourth semester. After two or three months, I will be stepping into my third year in college. Time sure flies! 
 
