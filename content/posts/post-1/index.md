@@ -2,7 +2,7 @@
 title = 'Done with third semester'
 draft = false
 date = '2024-01-18'
-tags = ['college']
+tags = ['college','life']
 description = 'My third semester in college in a nutshell'
 +++
 {{<figure src = "thirdsem.webp" caption = "Caption: This is not the classroom of my college, it is Chengannur Engineering College" alt = "A blackboard in a classroom of a college building. There are some chairs facing the board as well. Time Flies. Chapter 3/8 completed is written of the board">}}
