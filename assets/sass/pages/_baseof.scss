@@ -28,8 +28,4 @@
 .main {
   height: 100%;
   padding: 20px;
-
-  @media only screen and (min-width: $breakLarge) {
-    width: v.$width;
-  }
 }
