@@ -2,13 +2,13 @@
 
 .postDate {
   float: right;
-  color: $white;
+  color: v.$white;
 }
 
 .postTitle {
-  color: $orange;
+  color: v.$orange;
   text-transform: capitalize;
-  font-family: $fontHeader;
+  font-family: v.$fontHeader;
   font-size: 1.25rem;
   margin: 0;
 }
@@ -27,14 +27,14 @@
 
 .postListItem {
   padding: 20px;
-  background-color: $backgroundDarker;
+  background-color: v.$backgroundDarker;
   margin-bottom: 20px;
 }
 
 .postExcerpt {
   text-align: initial;
   text-decoration: none;
-  color: $white;
+  color: v.$white;
 }
 
 .headerContainer {
@@ -47,5 +47,5 @@
 }
 
 a:hover {
-  color: $link_hover_color;
+  color: v.$link_hover_color;
 };

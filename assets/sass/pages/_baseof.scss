@@ -30,6 +30,6 @@
   padding: 20px;
 
   @media only screen and (min-width: $breakLarge) {
-    width: $width;
+    width: v.$width;
   }
 }

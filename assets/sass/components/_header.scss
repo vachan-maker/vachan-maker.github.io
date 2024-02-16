@@ -1,20 +1,20 @@
 @use "../utils/variables";
 
 .header {
-  font-family: $fontHeader;
+  font-family: v.$fontHeader;
   font-size: 1.1rem;
   padding: 0 20px;
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: $width;
+  width: v.$width;
 }
 
 .headerWrapper {
   overflow: auto;
   box-sizing: border-box;
-  background-color: $backgroundDarker;
+  background-color: v.$backgroundDarker;
   display: flex;
   justify-content: center;
   flex-shrink: 0;
@@ -29,10 +29,10 @@
       display: inline;
       margin: 5px;
       a {
-        color: $white;
+        color: v.$white;
       }
       a:hover {
-      color: $link_hover_color;
+      color: v.$link_hover_color;
       }
     }
   }
@@ -41,10 +41,10 @@
   font-size: 1.1rem;
 }
 .terminal a{
-  color: $white;
+  color: v.$white;
   text-decoration: none;
 }
 .terminal a:hover {
-  color: $h1_header_color;
+  color: v.$h1_header_color;
 }
 
