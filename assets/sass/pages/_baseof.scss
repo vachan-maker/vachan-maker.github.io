@@ -28,4 +28,12 @@
 .main {
   height: 100%;
   padding: 20px;
+  
+  @media only screen and (min-width: v.$breakLarge) {
+    width: v.$width;
+  }
+
+  @media screen and (max-width: v.$breakLarge) {
+    width: 100%;    
+  }
 }
