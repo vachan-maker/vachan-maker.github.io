@@ -5,7 +5,7 @@ tags = ['life']
 description = "Missing the good old days of G+"
 +++
 
-Google Plus (G+) was a social media site created by Google. It was shut down in 2019.
+[Google Plus (G+)](https://en.wikipedia.org/wiki/Google%2B) was a social media site created by Google. It was shut down in 2019.
 
 I created my account back in August of 2014 when I was in either fourth grade or fifth grade - I don't remember which.
 
