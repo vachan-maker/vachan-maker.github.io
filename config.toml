@@ -11,6 +11,7 @@
     name = "Vachan S Panicker"
     email = "vachan@tutanota.com"
 
+
 [menu]
   [[menu.header]]
     name = "posts"
@@ -31,6 +32,7 @@ url = "https://github.com/vachan-maker"
 key = 1
 name = "Mastodon"
 url = "https://fosstodon.org/@nattukaran"
+rel = "me"
 
 [[params.social]]
 key = 2
@@ -46,5 +48,10 @@ url = "https://pixelfed.social/V4vachan"
 key = 4
 name = "RSS Feed"
 url = "/index.xml"
+[[params.social]]
+key = 5
+name = "X"
+url = "https://twitter.com/vsp2020"
+
 
 
