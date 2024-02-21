@@ -1,4 +1,4 @@
-@use "/utils/variables";
+@use "variables";
 html {
 border-top: 3px solid variables.$teal200;
 }
@@ -8,9 +8,14 @@ body {
     color: variables.$textDark;
     line-height: 1.5;
     background-color: variables.$backgroundDark;
-    max-width: 50rem;
     margin: 0 auto;
     padding: 1rem;
+}
+a {
+  color: variables.$teal200;
+  &:visited {
+    color: inherit;
+  }
 }
 .title{
 	color: variables.$teal200;

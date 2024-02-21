@@ -1,11 +1,10 @@
-
 <header>
    <nav>
         <ul>
-                {{ range .Site.Menus.header }}
+            {{ range .Site.Menus.header }}
                 <li>
-                    <a href="{{ .URL | absURL }}" title="{{ .Title }}" >
-                        ~/{{- .Name -}}
+                    <a href="{{ .URL | absURL }}">
+                        {{- .Name -}}
                     </a>
                 </li>
                 {{ end }}
