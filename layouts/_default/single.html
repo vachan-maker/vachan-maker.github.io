@@ -1,3 +1,16 @@
 {{ define "title"}}
 {{ .Title }} | {{ .Site.Params.author.name }}
 {{ end }}
+
+{{ define "main" }}
+<main>
+    <article>
+        <h1 class = "postTitle">{{ .Title }}</h1>
+        <p class="postMeta">Posted On: {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+        {{ if .Description }}
+            <p>{{ .Description }}</p>
+        {{ end }}
+        {{ .Content }}
+    </article>
+</main>
+{{ end }}

@@ -1,0 +1,12 @@
+{{ define "title"}}
+{{ .Title }} | {{ .Site.Params.author.name }}
+{{ end }}
+
+{{ define "main" }}
+<h1 class="title">{{ .Title }}</h1>
+<main>
+    <article>
+        {{ .Content }}
+    </article>
+</main>
+{{ end }}

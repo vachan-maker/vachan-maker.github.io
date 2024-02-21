@@ -8,8 +8,9 @@ body {
     color: variables.$textDark;
     line-height: 1.5;
     background-color: variables.$backgroundDark;
-    margin: 0 auto;
     padding: 1rem;
+    margin: 0 auto;
+    max-width: 42rem;
 }
 a {
   color: variables.$teal200;
