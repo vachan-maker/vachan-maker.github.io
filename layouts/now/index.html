@@ -21,7 +21,7 @@
                 {{ partial "taxonomy/categories.html" . }}
             {{ end }}
             {{ if .Site.Params.published | default true }}
-                <dt>{{ i18n "published" }}</dt>
+                <dt>{{ i18n "Updated On" }}</dt>
                 {{ $formattedDate := .Date.Format "2006-01-02" }}
                 <dd><time datetime="{{ $formattedDate }}">{{ .Date | time.Format ":date_long" }}</time></dd>
             {{ end }}

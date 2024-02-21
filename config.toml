@@ -3,6 +3,10 @@
     extended = true
     min = "0.111.3"
     theme = "nightfall"
+    enableGitInfo = true
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [params]
   user = "vachan"
   hostname = " "
@@ -52,6 +56,8 @@ url = "/index.xml"
 key = 5
 name = "X"
 url = "https://twitter.com/vsp2020"
+
+
 
 
 

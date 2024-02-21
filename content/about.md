@@ -2,6 +2,7 @@
 title = "About"
 url = "/about"
 showMetadata = false
+layout = "about"
 +++
 
 Hey there! I am Vachan and I love thinkering with computers. I am currently pursuing Computer Science and Engineering.
