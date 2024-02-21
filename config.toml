@@ -18,20 +18,24 @@
 
 [menu]
   [[menu.header]]
+	name = "Home"
+	weight = 1
+	url = "/" 
+  [[menu.header]]
     name = "Posts"
-    weight = 1
+    weight = 2
     url = "/posts"
   [[menu.header]]
     name = "Uses"
-    weight = 2
+    weight = 3
     url = "/uses"
   [[menu.header]]
     name = "Contact"
-    weight = 3
+    weight = 4
     url = "/contact"
   [[menu.header]]
     name = "About"
-    weight = 4
+    weight = 5
     url = "/about"
 
 [[params.social]]

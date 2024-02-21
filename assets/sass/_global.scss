@@ -1,6 +1,7 @@
 @use "variables";
 html {
 border-top: 3px solid variables.$teal200;
+scroll-behavior: smooth;
 }
 body {
     font-family: system-ui;
@@ -15,7 +16,10 @@ body {
 a {
   color: variables.$teal200;
   &:visited {
-    color: inherit;
+    color: variables.$teal200;
+  }
+  &:hover {
+  text-decoration: none;
   }
 }
 .title{
@@ -46,6 +50,9 @@ h5 {
 
 h6 {
   font-size: 0.96rem;
+}
+p {
+  margin: 1.5rem 0;
 }
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {

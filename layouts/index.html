@@ -11,7 +11,9 @@
 </head>
 
 <body>
-
         {{ partial "header.html" . }}
+        <main>
+        	<h1 class="title">{{ .Site.Params.author.name }}</h1>
+        </main>
 </body>
 </html>
