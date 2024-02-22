@@ -28,9 +28,6 @@ body {
 }
 a {
   color: variables.$teal200;
-  &:visited {
-    color: variables.$teal200;
-  }
   &:hover {
   text-decoration: none;
   }
