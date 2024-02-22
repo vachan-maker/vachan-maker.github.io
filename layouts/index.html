@@ -14,6 +14,20 @@
         {{ partial "header.html" . }}
         <main>
         {{ .Content }}
+        <aside>
+        {{ $image := resources.GetRemote "https://pxscdn.com/public/m/_v2/254106472768737280/c537ce87c-f5971d/gGGnn3Buzqmv/cWaWiZPOircogZBv0rYeuJShtVeLUoGx9wkRtFZy.jpg" }}
+        {{ $image := $image.Resize "370x580 webp q100" }}
+        <figure>
+        <img src="{{ $image.RelPermalink }}" width="370" height="540">
+        </figure>
+        <figure>
+        {{ $image2 := resources.GetRemote "https://pxscdn.com/public/m/_v2/254106472768737280/4be6889c4-9a72ca/AYTWwrAhZZUT/BZ5GLDERCHqG2TNAlFotVcJ9RMD6WRIsrw3Fvn8V.jpg" }}
+        {{ $image2 := $image2.Fill "370x580 webp q100" }}
+        <img src="{{ $image2.RelPermalink }}" width="370" height="540">
+        </figure>
+        
+        </aside>
+        </section>
         <section>
         	{{ partial "recentPosts.html" . }}
         </section>
