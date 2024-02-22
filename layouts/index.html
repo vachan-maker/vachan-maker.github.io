@@ -13,8 +13,13 @@
 <body>
         {{ partial "header.html" . }}
         <main>
-        	<h1 class="title">{{ .Site.Params.author.name }}</h1>
+        {{ .Content }}
+        <section>
         	{{ partial "recentPosts.html" . }}
+        </section>
         </main>
+        <footer>
+        	{{ partial "footer.html"}}
+        </footer>
 </body>
 </html>

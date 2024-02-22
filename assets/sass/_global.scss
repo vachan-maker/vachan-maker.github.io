@@ -1,4 +1,17 @@
 @use "variables";
+@font-face{
+    font-family: "RIT-Kutty-Bold";
+    src: local("RIT-Kutty-Bold"),
+    	 url("../fonts/RIT-Kutty-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    unicode-range: U+0D30 - 0D3F, U+0D10 - 0D1F,U+0D70 - 0D7F;
+}
+[lang = 'ml']
+{
+  font-family: 'RIT-Kutty-Bold';
+}
 html {
 border-top: 3px solid variables.$teal200;
 scroll-behavior: smooth;
