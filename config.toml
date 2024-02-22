@@ -26,17 +26,21 @@
     weight = 2
     url = "/posts"
   [[menu.header]]
-    name = "Uses"
+    name = "Now"
     weight = 3
-    url = "/uses"
+    url = "/now/"
   [[menu.header]]
-    name = "Contact"
+    name = "Uses"
     weight = 4
-    url = "/contact"
+    url = "/uses"
   [[menu.header]]
     name = "About"
     weight = 5
     url = "/about"
+  [[menu.header]]
+    name = "Contact"
+    weight = 6
+    url = "/contact"
 
 [[params.social]]
 key = 0

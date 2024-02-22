@@ -1,6 +1,0 @@
-{{ $published := .Date.Format "02.01.2006" }}
-{{ $lastmod := .Lastmod.Format "02.01.2006" }}
-
-{{ if ne $lastmod $published }}
-    <span class="date-info italic"> <br> edited on {{ .Lastmod.Format "02.01.2006" }}</span>
-{{ end }}

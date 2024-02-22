@@ -3,12 +3,12 @@ title = "Things I love"
 layout = "static"
 url="/faves/"
 +++
-## TV Shows
+### TV Shows
 - [Friends](https://www.themoviedb.org/tv/1668-friends)
 - [Breaking Bad](https://www.themoviedb.org/tv/1396-breaking-bad)
 - [Chernobyl](https://www.themoviedb.org/tv/87108-chernobyl)
-## Music
-### Favourite Tracks
+### Music
+#### Favourite Tracks
 - Dean Town by Vulfpeck
 - Baby Blue by Badfinger
 - Back In Black by AC/DC
@@ -19,7 +19,7 @@ url="/faves/"
 - Dandelions by Ruth. B
 - Clocks by Coldplay
 - Attention by Charlie Puth
-### Malayalam Songs
+#### Malayalam Songs
 - [Pavizha Mazha](https://music.youtube.com/watch?v=JZExDJN7WFI) from Athiran
 - [Alolam](https://music.youtube.com/watch?v=49dvf7oEpJc) from Love Action Drama
 - [Nenjakame](https://music.youtube.com/watch?v=EWoTpielYJA) from Ambili

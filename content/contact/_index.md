@@ -5,8 +5,13 @@ url = "/contact/"
 +++
 The fastest way to get in touch with me is via Mastodon. Send me a message at [@nattukaran@fosstodon.org](https://fosstodon.org/@nattukaran)
 
-You can also send me an email.
+You can also send me an [email](mailto:vachan@tutanota.com).
 
-If you want to see some photos I take, you can check my pixelFed.
+I don't use Instagram, Snapchat or Facebook.
 
-I also have a GitHub account. 
+### Other profiles
+- PixelFed
+- [GitHub](https://github.com/vachan-maker)
+- [AniList](https://anilist.co/user/vchn/)
+
+
