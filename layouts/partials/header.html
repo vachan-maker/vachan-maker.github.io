@@ -1,18 +1,14 @@
-<header class="headerWrapper">
-    <div class="header">
-        <div>
-		<h1 class="terminal"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.user }} ~ $</a></h1>
-        </div>
-        <nav class="headerLinks">
-            <ul>
-                {{ range .Site.Menus.header }}
+<header>
+   <nav>
+   <h1 class = "logo" lang = "ml">വചൻ</h1>
+        <ul>
+            {{ range .Site.Menus.header }}
                 <li>
-                    <a href="{{ .URL | absURL }}" title="{{ .Title }}" >
-                        ~/{{- .Name -}}
+                    <a href="{{ .URL | absURL }}">
+                        {{- .Name -}}
                     </a>
                 </li>
                 {{ end }}
             </ul>
         </nav>
-    </div>
 </header>

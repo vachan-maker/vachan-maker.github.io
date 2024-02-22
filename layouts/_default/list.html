@@ -1,36 +1,14 @@
-{{ define "title"}}
-{{ .Title }} | {{ .Site.Params.author.name }}
+{{ define "main"}}
+<h2 class="title">{{ .Title }}</h2>
+{{ range .Pages.GroupByPublishDate "2006" }}
+<h3>{{ .Key }}</h3>
+<ul class = "postList">
+  {{ range .Pages}}
+  <li class="postItem"><a href="{{ .Permalink }}">{{ .Title }}</a>
+  {{ $formattedDate := .Date.Format "2006-01-02"}}
+  <time datetime="{{$formattedDate}}" class = "postTime">{{ .Date.Format "Jan 2" }}</time>
+  </li>
 {{ end }}
-
-{{ define "main" }}
-
-<div>
-    <div class="listHeader">
-        <h1>{{ .Title }}</h1>
-    </div>
-
-    {{ with .Content }}
-    <div class="listContent">
-        {{- . -}}
-    </div>
-    {{ end }}
-
-    <div>
-        {{ range .Pages }}
-
-            <!-- [html-validate-disable-next prefer-native-element] -->
-            <article class="postListItem" role="listitem">
-                <header class="postHeader">
-                  <h3 class="postTitle"> <a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    {{ $formattedDate := .Date.Format "2006-01-02" }}
-                    <time class="postDate" datetime="{{ $formattedDate }}">{{ .Date | time.Format ":date_long" }}</time>
-                </header>
-                    <p class = "postExcerpt">{{ .Summary }}</p>
-            </article>
-
-
-        {{end}}
-    </div>
-</div>
-
+</ul>
+{{ end }}
 {{ end }}

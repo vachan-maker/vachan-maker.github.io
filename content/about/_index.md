@@ -1,9 +1,8 @@
 +++
 title = "About"
-url = "/about"
-showMetadata = false
+url = "/about/"
+layout = "static"
 +++
-
 Hey there! I am Vachan and I love thinkering with computers. I am currently pursuing Computer Science and Engineering.
 
 I am a big fan of Open Source Software and Linux. Currently, running Debian 12 (Bookworm) on my laptop.

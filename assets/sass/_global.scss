@@ -1,41 +1,103 @@
-@use "utils/variables" as v;
-
+@use "variables";
+@font-face{
+    font-family: "RIT-Kutty-Bold";
+    src: local("RIT-Kutty-Bold"),
+    	 url("../fonts/RIT-Kutty-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    unicode-range: U+0D30 - 0D3F, U+0D10 - 0D1F,U+0D70 - 0D7F;
+}
+[lang = 'ml']
+{
+  font-family: 'RIT-Kutty-Bold';
+}
+html {
+border-top: 3px solid variables.$teal200;
+scroll-behavior: smooth;
+font-family: sans-serif;
+}
 body {
-  font-family: v.$fontParagraph;
-  color: v.$white;
-  background-color: v.$backgroundDark;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-size: 1.3rem;
-  line-height: 1.5;
+    color: variables.$textDark;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    background-color: variables.$backgroundDark;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 43rem;
 }
-
 a {
-  color: v.$orange;
-}
-
-pre code {
-  font-family: v.$fontCode;
-  font-size: 75%;
-  display: block;
-  background: v.$backgroundDarker;
-  padding: 10px;
-  overflow: auto;
-}
-
-code {
-  font-family: v.$fontCode;
-  font-size: 75%;
-}
-
-@for $i from 1 through 6 {
-  h#{$i} {
-    font-family: v.$fontHeader;
+  color: variables.$teal200;
+  &:visited {
+    color: variables.$teal200;
+  }
+  &:hover {
+  text-decoration: none;
   }
 }
+.title{
+	color: variables.$teal200;
+}
+/* Format headers from simplecss*/
+h1 {
+  font-size: 3rem;
+}
 
-@-ms-viewport{
-  width: device-width;
+h2 {
+  font-size: 2.6rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 0.96rem;
+}
+p {
+  margin: 1.5rem 0;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+/* Reduce header size on mobile - from simplecss*/
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.9rem;
 }

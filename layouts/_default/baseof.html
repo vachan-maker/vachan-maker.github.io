@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
 <head>
     <title>{{ block "title" . }}
         {{ .Site.Title }}
@@ -12,19 +11,14 @@
 
 <body>
 
-    <div class="flexWrapper">
         {{ partial "header.html" . }}
-
-        <div class="content">
-            <main class="main">
+            <main>
                 {{ block "main" . }}
                 {{ end }}
             </main>
-        </div>
 
 
         {{ partial "footer.html" . }}
-    </div>
 
 </body>
 

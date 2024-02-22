@@ -1,17 +1,7 @@
-@use "global";
+@use 'variables';
+@use 'header';
+@use 'global';
+@use 'list';
+@use 'single';
+@use 'footer';
 
-// utils
-@use "utils/variables";
-@use "utils/fonts";
-
-// components
-@use "components/footer";
-@use "components/header";
-@use "components/post";
-@use "components/social";
-
-// pages
-@use "pages/single";
-@use "pages/list";
-@use "pages/index";
-@use "pages/baseof";

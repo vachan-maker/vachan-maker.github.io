@@ -3,6 +3,10 @@
     extended = true
     min = "0.111.3"
     theme = "nightfall"
+    enableGitInfo = true
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [params]
   user = "vachan"
   hostname = " "
@@ -11,16 +15,32 @@
     name = "Vachan S Panicker"
     email = "vachan@tutanota.com"
 
+
 [menu]
   [[menu.header]]
-    name = "posts"
-    weight = 1
-    url = "/posts"
-
+	name = "Home"
+	weight = 1
+	url = "/" 
   [[menu.header]]
-    name = "about"
-    weight = 0
+    name = "Posts"
+    weight = 2
+    url = "/posts"
+  [[menu.header]]
+    name = "Now"
+    weight = 3
+    url = "/now/"
+  [[menu.header]]
+    name = "Uses"
+    weight = 4
+    url = "/uses"
+  [[menu.header]]
+    name = "About"
+    weight = 5
     url = "/about"
+  [[menu.header]]
+    name = "Contact"
+    weight = 6
+    url = "/contact"
 
 [[params.social]]
 key = 0
@@ -31,6 +51,7 @@ url = "https://github.com/vachan-maker"
 key = 1
 name = "Mastodon"
 url = "https://fosstodon.org/@nattukaran"
+rel = "me"
 
 [[params.social]]
 key = 2
@@ -46,5 +67,12 @@ url = "https://pixelfed.social/V4vachan"
 key = 4
 name = "RSS Feed"
 url = "/index.xml"
+[[params.social]]
+key = 5
+name = "X"
+url = "https://twitter.com/vsp2020"
+
+
+
 
 
