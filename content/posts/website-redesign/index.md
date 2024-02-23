@@ -25,11 +25,13 @@ I also added some new pages.
 - A [faves](/faves) page for sharing the music, tv-shows and movies I like. It is not complete.
 - A [home](/) page with two photos and some of my recent posts. Earlier my homepage just displayed my name and the link of my social media handles. I have moved that to the contact page, which is also new.
 
-Furthere more, there is now a reply via email button at the bottom of every post. 
+Furthere more, I added [goatcounter](https://www.goatcounter.com/) analytics to get an idea on how many people visit my site. There is also now a reply via email button at the bottom of every post. 
 
-The whole process taught me a lot. I got a good grip on how Hugo works, using Sass for styling and how I can write good templates. I also gained insight on working with branches in git.
+The whole process taught me a lot. Even though I reused most of the hugo code from the previous theme, I got a good grip on how Hugo works - about partials, pipes, directory structure, etc. I also gained insight on working with branches in git and using Sass for styling.
 
 I really love how everything looks in the end. If you have any feedback, please feel free to get in touch with me.
+
+[Old design of this site](https://web.archive.org/web/20240211020308/https://vachan-maker.github.io/)
 
 This is day 9 of [#100daystoOffload](https://100daystooffload.com)
 

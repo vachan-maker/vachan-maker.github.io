@@ -2,8 +2,11 @@
 title = "Now"
 url = "/now/"
 layout = "static"
+lastmod = 2024-02-23
 +++
-Welcome to my now page. Here is what I am doing now!
+Last updated on February 23, 2024
+
+Welcome to my now page. Here is what I am doing now! You can learn more about now pages [here](https://nownownow.com/about)
 
 I am in my fourth semester in college. After 4 more semesters, I will complete my course.
 
@@ -14,5 +17,5 @@ I am in my fourth semester in college. After 4 more semesters, I will complete m
 **TV Show** - Modern Family
 
 ### What I am working on
-- I am working on a game blog with my friends. They provide the content and I am responsible for publishing and maintaing the blogsite.
-- I am also working on completing the [#100daystoOffload](https://100daystooffload.com).
+- A game blog with my friends. They provide the content and I am responsible for publishing and maintaing the blogsite.
+- I am also working on completing the [#100daystoOffload](https://100daystooffload.com) challenge.

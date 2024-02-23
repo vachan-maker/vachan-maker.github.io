@@ -43,7 +43,6 @@ enableGitInfo = true
     name = "Contact"
     weight = 6
     url = "/contact"
-
 [[params.social]]
 key = 0
 name = "GitHub"
