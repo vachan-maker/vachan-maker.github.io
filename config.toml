@@ -1,11 +1,13 @@
+enableGitInfo = true
 [module]
   [module.hugoVersion]
     extended = true
     min = "0.111.3"
     theme = "nightfall"
-    enableGitInfo = true
 [frontmatter]
+  date = ["date", "publishDate", "lastmod"]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
 
 [params]
   user = "vachan"
