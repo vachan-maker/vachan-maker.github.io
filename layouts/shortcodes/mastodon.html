@@ -1,5 +1,5 @@
 {{ $data := "" }}
-{{ $url := "https://fosstodon.org/api/v1/accounts/111981527617510877/statuses" }}
+{{ $url := "https://fosstodon.org/@vachan_notes.rss" }}
 {{ with resources.GetRemote $url }}
   {{ with .Err }}
     {{ errorf "%s" . }}
@@ -10,5 +10,12 @@
   {{ errorf "Unable to get remote resource %q" $url }}
 {{ end }}
 
+{{ with $data.channel.item }}
+  <ul>
+    {{ range . }}
+      <li>{{ .description| plainify| markdownify }}</li>
+    {{ end }}
+  </ul>
+{{ end }}
 
 
