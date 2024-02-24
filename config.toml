@@ -75,6 +75,13 @@ name = "X"
 url = "https://twitter.com/vsp2020"
 
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
+
 
 
 
