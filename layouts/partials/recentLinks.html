@@ -1,0 +1,13 @@
+<h2>Links</h2>
+<ul class = "postList">
+   {{ range first 3 (where .Site.RegularPages "Type" "links" ) }}
+   <article class="linkArticle">
+    {{ $formattedDate := .Date.Format "2006-01-02"}}
+    <h4 class="linkTitle"><a href="{{ .Params.link }}"> {{.Title }}</a></h4>
+    <p class = "linkMeta">{{ .Params.author.name }} |  <time datetime="{{$formattedDate}}" class = "postTime">{{ .Date.Format "Jan 2" }}</time></p>
+    <p>{{ .Content }}</p>
+
+</article>
+{{ end }}
+</ul>
+<p id = "readmore"><a href = "/links">More Posts</a> | <a href = "/index.xml">RSS Feed</a></p>

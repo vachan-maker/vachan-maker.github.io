@@ -3,14 +3,16 @@ title = "Things I love"
 layout = "static"
 url="/faves/"
 +++
+Just a list of some things I like. It doesn't contain every single thing I like.
 ### TV Shows
 - [Friends](https://www.themoviedb.org/tv/1668-friends)
 - [Breaking Bad](https://www.themoviedb.org/tv/1396-breaking-bad)
 - [Chernobyl](https://www.themoviedb.org/tv/87108-chernobyl)
 ### Music
 #### Favourite Tracks
-- Dean Town by Vulfpeck
-- Baby Blue by Badfinger
+- [Dean Town](https://music.youtube.com/watch?v=FRX1VbNQrEc) by Vulfpeck
+- [Shelter](https://music.youtube.com/watch?v=wN8uBNLHffI) by Porter Robinson
+- [Baby Blue](https://music.youtube.com/watch?v=33oAuvbRg-c) by Badfinger
 - Back In Black by AC/DC
 - Boulevard of Broken Dreams by Green Day
 - Hotel California by The Eagles
@@ -26,7 +28,9 @@ url="/faves/"
 - [Ranam Title Track](https://music.youtube.com/watch?v=3Qw3M7ibgaM) from Ranam
 - [Muthuchippi](https://music.youtube.com/watch?v=9JaBo8h67qo), [Anuragathin Velayil](https://music.youtube.com/watch?v=mbXCMRFAG3g) from Thattathin Marayathu
 - [Cherathukal](https://music.youtube.com/watch?v=5VSGggCyQd4) from Kumblangi Nights
-
+#### Soundtracks
+- [Pacific Rim](https://music.youtube.com/watch?v=pnFdDqSDRDE) by Ramin Dajawadi
+- [Flight](https://music.youtube.com/watch?v=ob-73lHbwe4) by Hans Zimmer 
 ### Albums I love
 - What About Me? by Snarky Puppy
 	- This album is a masterpiece. I think Snarky Puppy is what really got me into listening to jazz and instrumental music. All the tracks in the album are awesome and I have listened to the entire album several times. Its that good. If you haven't heard this album, I would highly recommend you to check it out. 

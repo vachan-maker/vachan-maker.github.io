@@ -32,6 +32,11 @@ a {
   text-decoration: none;
   }
 }
+blockquote {
+  border-inline-start: 0.35rem solid variables.$teal200;
+  font-style: italic;
+  padding: 0.4rem 0.8rem;
+}
 .title{
 	color: variables.$teal200;
 }
@@ -89,6 +94,18 @@ h3 {
   h4 {
     font-size: 1.25rem;
   }
+}
+.linkTitle {
+  margin: 0;
+}
+.linkMeta {
+  margin: 0;
+}
+.linkArticle {
+  background-color: #2d2d2d;
+  padding: 0.8rem;
+  border-radius: 7px;
+  margin-top: 1rem;
 }
 img {
   max-width: 100%;
