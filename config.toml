@@ -11,7 +11,7 @@ enableGitInfo = true
 
 [params]
   user = "vachan"
-  images = ['site-feature-image.png']
+  images = ['/images/site-feature-image.png']
   hostname = " "
   description = "Hey there! I am Vachan and I love thinkering with computers. I am currently pursuing Computer Science and Engineering. You can read my posts, know more about me and get in touch with me"
     [params.author]
