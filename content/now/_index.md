@@ -21,5 +21,5 @@ I am in my fourth semester in college. After 4 more semesters, I will complete m
 - I am also working on completing the [#100daystoOffload](https://100daystooffload.com) challenge.
 
 ### Ideas
-- Make a statuslog using RSS feed from mastodon and display ot on my website.
-- Make a dashboard which shows the anime, tv show episodes and movies I watched recently.
+- Make a statuslog using RSS feed from mastodon and display it on my website.
+- Make a dashboard which shows anime, tv show episodes and movies I watched recently.
