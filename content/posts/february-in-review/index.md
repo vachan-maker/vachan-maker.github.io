@@ -4,12 +4,12 @@ date = 2024-03-02
 draft = false
 description = "What I did in the month of February"
 +++
-{{<figure src = "sugarcane2.webp" caption = "A glass of refreshing sugar cane juice" alt = "A hand holding a glass filled to the brim with cold sugarcane juice made from sugarcane, lemon juice,ginger and sugar. There is also a paper straw in the glass." title = "A hand holding a glass filled to the brim with cold sugarcane juice made from sugarcane, lemon juice,ginger and sugar. There is also a paper straw in the glass.">}}
+{{<figure src = "sugarcane2.webp" caption = "A glass of refreshing sugar cane juice" alt = "A hand holding a glass filled to the brim with cold sugarcane juice made from sugarcane, lemon juice,ginger and sugar. There is also a paper straw in the glass.">}}
 Huh it's already March. That was fast! And the heat is just unbearable.
 
 I had my third semester lab exams (OOP in Java & Data Structures) at the beginning of this month and I was really anxious about it because this was actually my first lab exam. There were a lot of programs to study and I thought I would blank out at the middle of writing a program and or not even know how to do a program the examiner asked. But thankfully, I was able to perform pretty well in the exam and got the output for both the labs.
 
-Valentine's day coincided with my data structure exam and on the day before it, I discovered a site called the love calculator created by [Aldrin Jenson](https://aldrinjenson.com/). It asked the person who their crush is and after submitting the form it rickrolls the person. I really loved this harmless prank and decided to create a clone of it. It was really fun to make and I got good responses from my friends. You can read more about it [here](/posts/pranking-my-friends-on-valentines-day/).s
+Valentine's day coincided with my data structure exam and on the day before it, I discovered a site called the love calculator created by [Aldrin Jenson](https://aldrinjenson.com/). It asked the person who their crush is and after submitting the form it rickrolls the person. I really loved this harmless prank and decided to create a clone of it. It was really fun to make and I got good responses from my friends. You can read more about it [here](/posts/pranking-my-friends-on-valentines-day/).
 
 Since answer sheet evaluation was taking place, our college gave us a short break.
 
