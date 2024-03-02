@@ -13,7 +13,7 @@ Valentine's day coincided with my data structure exam and on the day before it, 
 
 Since answer sheet evaluation was taking place, our college gave us a short break.
 
-{{<figure src = "maramon.webp" caption = "On the sanbeds of Maramon">}}
+{{<figure src = "maramon.webp" caption = "On the sanbed of Maramon">}}
 [Maramon Convention](https://en.wikipedia.org/wiki/Maramon_Convention), a week long Chrisitian convention held every year began that week and I went there and atteneded a few sessions. I also met a good number of people there.
 
 I spent the rest of the days working on redesigning this website. Initially, I created this website using a theme called [Nightfall](https://github.com/LordMathis/hugo-theme-nightfall). It is an alright theme but there were a some things about it which I didn't like. I was able to fix most of the issues but in the end I decided to go with a new custom design. If you want to know more, check the post I wrote about the process. On top of that, this site has new pages like a [Now](/now) page,
