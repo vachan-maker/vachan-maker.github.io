@@ -4,6 +4,7 @@ date = 2024-03-02
 draft = false
 description = "What I did in the month of February"
 +++
+{{<figure src = "sugarcane2.webp" caption = "A glass of refreshing sugar cane juice" alt = "A hand holding a glass filled to the brim with cold sugarcane juice made from sugarcane, lemon juice,ginger and sugar. There is also a paper straw in the glass." title = "A hand holding a glass filled to the brim with cold sugarcane juice made from sugarcane, lemon juice,ginger and sugar. There is also a paper straw in the glass.">}}
 Huh it's already March. That was fast! And the heat is just unbearable.
 
 I had my third semester lab exams (OOP in Java & Data Structures) at the beginning of this month and I was really anxious about it because this was actually my first lab exam. There were a lot of programs to study and I thought I would blank out at the middle of writing a program and or not even know how to do a program the examiner asked. But thankfully, I was able to perform pretty well in the exam and got the output for both the labs.
@@ -12,7 +13,7 @@ Valentine's day coincided with my data structure exam and on the day before it, 
 
 Since answer sheet evaluation was taking place, our college gave us a short break.
 
-{{<figure src = "maramon.webp" caption = "On the sanbeds of Maramon.">}}
+{{<figure src = "maramon.webp" caption = "On the sanbeds of Maramon">}}
 [Maramon Convention](https://en.wikipedia.org/wiki/Maramon_Convention), a week long Chrisitian convention held every year began that week and I went there and atteneded a few sessions. I also met a good number of people there.
 
 I spent the rest of the days working on redesigning this website. Initially, I created this website using a theme called [Nightfall](https://github.com/LordMathis/hugo-theme-nightfall). It is an alright theme but there were a some things about it which I didn't like. I was able to fix most of the issues but in the end I decided to go with a new custom design. If you want to know more, check the post I wrote about the process. On top of that, this site has new pages like a [Now](/now) page,
