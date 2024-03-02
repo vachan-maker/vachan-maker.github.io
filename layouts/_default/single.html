@@ -10,6 +10,7 @@
             <p>{{ .Description }}</p>
         {{ end }}
         <p class="postMeta"><strong>Posted On:</strong> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+        <hr />
         {{ .Content }}
         {{ if ne $lastmod $date }} 
         <em>Last Updated On: {{ .Lastmod.Format "Mon Jan 2, 2006" }}</em>
