@@ -11,7 +11,7 @@ Sometimes one of my friends will send me a couple of voice messages and often I 
 
 Turning off the blue tick mark also gives me some time to think and respond to a message without making the person on the other end feel bad. It reduces the pressure on me to reply immediately to someone.
 
-But there is another thing. Pretty much all of my friends know that I am a very active user. I post statuses for fun on WhatsApp nearly daily, send messages and make stupid jokes in group chats nearly daily. In addition to that, there is no way to turn off read receipts for group chats on the app. If I don't respond to a person, they probably know that I have seen their messages and ignoring them on purpose. So I will have to reply back to them no matter what.
+But there is another thing. Pretty much all of my friends know that I am a very active user. I post statuses for fun on WhatsApp, send messages and make stupid jokes in group chats nearly daily. In addition to that, there is no way to turn off read receipts for group chats on the app. If I don't respond to a person, they probably know that I have seen their messages and ignoring them on purpose. So I will have to reply back to them no matter what.
 
 In conclusion, turning off read receipts just allows me to think and respond back to a person at my own pace. Rest assured, I will reply back to their message or atleast give a reaction to let them know that I have seen what they sent.
 
