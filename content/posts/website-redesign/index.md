@@ -2,6 +2,7 @@
 title = "Redesign"
 date = 2024-02-23
 draft = false
+description = "My website now has a new fresh look"
 +++
 I am currenly enjoying a short break from college and I used the time for revamping my website. I did change the appearence of this site a few weeks ago but that was nothing major. I wanted my website to have a little bit more of a personal touch.
 

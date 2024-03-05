@@ -2,6 +2,7 @@
 title = "I don't use read receipts"
 date = 2024-03-03
 draft = false
+description = "A short post on why I don't use read receipts"
 +++
 From the day I created my WhatsApp account, I've always kept read receipts off and never really felt the need to turn them on. Some of my friends don't really get why I do this and often ask me about it. This is like a response post to them.
 

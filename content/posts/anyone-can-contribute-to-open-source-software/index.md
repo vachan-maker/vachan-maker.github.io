@@ -2,6 +2,7 @@
 title = "Anyone can contribute to open source software"
 date = 2024-02-27
 draft = false
+description = "Don't know how to code? Don't worry! There are still many other ways you can help an open source project"
 +++
 You don't need to know coding to contribute to open source software. Here are some ways you can make a contribution.
 
