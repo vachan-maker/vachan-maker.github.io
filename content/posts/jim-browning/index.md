@@ -21,7 +21,7 @@ I could keep going on and on. The episode is an hour long and is definetly worth
 
 Just wanted to share this with you.
 
-This is day 12 of [#100DaystoOffload](https://100daystooffload.com)
+This is day 13 of [#100DaystoOffload](https://100daystooffload.com)
 
 
 
