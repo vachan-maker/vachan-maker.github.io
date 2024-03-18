@@ -5,7 +5,7 @@ draft = false
 description = "All about our college arts fest"
 +++
 {{<figure src = "concert3.webp" caption = "Jassie Gift and team on stage" alt = "A group of people standing on stage with instruments in a concert.">}}
-So yesterday (Sat March 16, 2024) our college arts fest came to an end. The name of the arts festival this year was 'Thira'. Last year the name was 'Drishya'. (Yes, every year there is a different name). It lasted three days. Thira 2K24 was inaugurated by an alumnus of our college.
+So day before yesterday (Sat March 16, 2024) our college arts fest came to an end. The name of the arts festival this year was 'Thira'. Last year the name was 'Drishya'. (Yes, every year there is a different name). It lasted three days. Thira 2K24 was inaugurated by an alumnus of our college.
 
 Last year, a tech fest was held a day before arts. This year there was no tech fest.
 
