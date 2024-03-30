@@ -1,6 +1,7 @@
 +++
 title = "My dreams for my website"
 date = 2024-03-30
+description = "What I wish my braindump to be like"
 +++
 When I started using Mastodon account 4 years ago, what really caught my attention was that most of the people on it  had their own personal website. This was really cool!
 
