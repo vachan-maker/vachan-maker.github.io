@@ -4,7 +4,7 @@
         <ul>
             {{ range .Site.Menus.header }}
                 <li>
-                    <a href="{{ .URL | absURL }}">
+                    <a href="{{ .URL }}">
                         {{- .Name -}}
                     </a>
                 </li>
