@@ -1,4 +1,5 @@
 enableGitInfo = true
+baseURL = 'https://vachan.me'
 [module]
   [module.hugoVersion]
     extended = true
@@ -12,7 +13,6 @@ enableGitInfo = true
 [params]
   user = "vachan"
   images = ['/images/site-feature-image.png']
-  hostname = " "
   description = "Hey there! I am Vachan and I love thinkering with computers. I am currently pursuing Computer Science and Engineering. You can read my posts, know more about me and get in touch with me"
     [params.author]
     name = "Vachan S Panicker"
