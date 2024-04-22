@@ -17,7 +17,7 @@ Now, I am not a mobile gamer. But I got into playing the game and now I just lov
 
 The game has several maps and two main modes - death match and capture the flag. Usually, we play capture the flag when there is a lot of people.
 
-After two or three matches in a row,the game does get repetetive and becomes boring. So most of use just stop and do something else.
+After two or three matches in a row,the game does get repetetive and becomes boring. So most of us just stop and do something else.
 
 So is there a game that you love playing with your friends? Let me know!
 
