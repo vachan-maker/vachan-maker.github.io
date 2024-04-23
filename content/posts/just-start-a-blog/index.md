@@ -6,7 +6,7 @@ description = "There is no need to be unsure of starting a blog."
 +++
 It has been a couple of months since I started this blog.
 
-I was initially hesitant to start blogging because I would ask myself 'What should I write about?' or 'Will anyone read what I write?'. Also the thought 'nothing interesting really happens in my life' held me back from starting this blog.
+I was initially hesitant to start blogging because I would ask myself 'What should I write about?' or 'Will anyone read what I write?'. Also the thought 'nothing interesting really happens in my life' held me back from blogging.
 
 But as I began to write and publish posts, I started to realize that I have experiences, thoughts and other things that I want to share with people.
 
