@@ -3,7 +3,7 @@ title = "My Bucket List"
 date = 2024-04-22T22:13:00+05:30
 description = "Some things I want to do before I die"
 +++
-Here is my bucket list. It is not complete, I will keep on adding things to it. Some of the items are completely random and crazy. (Maybe I won't update it or I will probably end )
+Here is my bucket list. It is not complete, I will keep on adding things to it. Some of the items are completely random and crazy. (Maybe I won't update it or I will probably end up deleting this)
 
 - I want to go skydiving/parachuting(really scared to do it though)
 - Fly in a helicopter
