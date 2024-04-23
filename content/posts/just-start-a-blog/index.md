@@ -2,7 +2,7 @@
 title = 'Just start blogging'
 date = 2024-04-23T19:18:00+05:30
 draft = false
-description = "There is no need to be unsure of starting a blog."
+description = "There is no need to be unsure about starting a blog."
 +++
 It has been a couple of months since I launched this blog.
 
