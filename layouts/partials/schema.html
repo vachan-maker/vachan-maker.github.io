@@ -45,7 +45,7 @@
     "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05.00Z" | safeHTML }}",
     "image": {{ if .Params.images }}[{{ range $i, $e := .Params.images }}{{ if $i }}, {{ end }}{{ $e | absURL }}{{ end }}]{{ else}}{{ .Site.Params.images| absURL }}{{ end }},
     "url" : "{{ .Permalink }}",
-    "wordCount" : "{{ .WordCount }}",
+    "wordCount" : "{{ .WordCount }}"
 }
 </script>
 {{ end }}
