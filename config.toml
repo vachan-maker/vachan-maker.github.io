@@ -13,6 +13,7 @@ baseURL = 'https://vachan.me'
 [params]
   user = "vachan"
   images = ['/images/site-feature-image.png']
+  copyright = "All work licensed under CC BY-SA 4.0 unless otherwise stated."
   description = "Hey there! I am Vachan and I love thinkering with computers. I am currently pursuing Computer Science and Engineering. You can read my posts, know more about me and get in touch with me"
     [params.author]
     name = "Vachan S Panicker"
