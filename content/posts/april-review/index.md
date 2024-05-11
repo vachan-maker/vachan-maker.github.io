@@ -8,7 +8,7 @@ Last month, I did not publish a month in review because I was just feeling lazy 
 ## College
 Classes are going alright. I don't really enjoy this semester. It is so hot and sitting in class in this heat is just unbearable. There is no other option but just to adjust to it.
 
-I also had my internal exams and scored decent marks. But I am find it tought to study the paper - Computer Organization & Architecture.
+I also had my internal exams and scored decent marks. But I am find it tough to study the paper - Computer Organization & Architecture.
 
 ## Updates to the site
 As you can see, I have switched to a new domain [vachan.me](https://vachan-maker.github.io) which I am super thrilled about. But I don't really know what I will do when it expires next year. It was included for free in the Github Student Pack.
