@@ -35,6 +35,6 @@ Yes, there are free third-party instances of Nextcloud and free cloud storage pr
 
 ### Final thoughts
 
-I am just going to keep using my Google account for now. But in the future when I have the money, I will definetly switch to self hosted appplications. It is something that I am very eager to use.
+I am just going to keep using my Google account for now(I don't really have any other option). But in the future when I have the money, I will definetly switch to self hosted appplications. It is something that I am very eager to use.
 
 This is day 22 of [#100DaystoOffload](https://100DaystoOffload.com)
