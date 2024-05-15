@@ -14,8 +14,6 @@ I got my hands on a new used router and I spend some time configuring it. Lets g
 
     But now, WPS is considered insecure and everyone recommends you to turn it off. If you still have it turned on, disable it. Newer devices don't even have the option to use WPS.
 
-    I also disabled TKIP for the encryption and used AES only for WPA2.
-
 2. Changed the DNS Servers
 
     I changed my default DNS servers to [Quad9 DNS](https://www.quad9.net/). The DNS server provided by your ISP may be slow so it is a good reason to change it. I specifically chose Quad9 as it has good malware blocking so that I can browse the web safe and secure. You can use other options like Cloudflare, NextDNS and so on.
