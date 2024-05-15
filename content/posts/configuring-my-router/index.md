@@ -37,4 +37,4 @@ In the future, I might get my hands on a router which can run OpenWRT so I can h
 
 What settings do you change when you get a new router? I would love to know.
 
-This is day 25 0f [#100DaystoOffload](https://100daystooffload.com)
+This is day 25 of [#100DaystoOffload](https://100daystooffload.com)
