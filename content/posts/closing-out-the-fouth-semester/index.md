@@ -36,6 +36,7 @@ Remember how I said that COA was the subject that I dread the most? Well, the CO
 But out of all the exams, preparing for the Operating System paper was probably the most stressful because I had exactly one day to study five modules. Fortunately, I was actually able to cover about four modules and prepared for the exam pretty well.
 
 A few of my friends also had arranged online classes on Discord and this actually was super helpful. I was able to answer many of the questions in the exam just because of studying with my bros.
+{{<figure src = "discord-class.webp" caption = "Group study with my friends on Discord" alt = "Screenshot of a voice chat with my friends on discord">}}
 
 ## Wrapping up
 
