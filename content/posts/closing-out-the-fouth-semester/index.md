@@ -42,7 +42,7 @@ A few of my friends also had arranged online classes on Discord and this actuall
 
 During the first two semesters, preparing for exams was hectic but by the fourth semester I've gotten good at handling exams. I even managed to squeeze in time to watch Back to the Future 2 & 3(the entire BTTF trilogy is awesome) between all this studying. I've realized that as long as I put in hard work and prepare well, there is no need to worry too much. I know I will be able pass my exams(hopefully😅).
 
-This is day 29 0f [#100DaystoOffload](https://100daystooffload.com)
+This is day 29 of [#100DaystoOffload](https://100daystooffload.com)
 
 
 
