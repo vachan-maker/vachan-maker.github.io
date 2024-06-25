@@ -24,7 +24,7 @@ To start using llamafile on Linux,
 
     `./TinyLlama-1.1B-Chat-v1.0.F16.llamafile`
 
-4. Your browser should open automatically and that is all. If it doesn't go to http://localhost:8080/ . That is all. See how easy that was!
+4. Your browser should open automatically and that is all. If it doesn't, go to http://localhost:8080/ . That is all. See how easy that was!
 
 *Instructions are from the llamafile [quick start guide](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#quickstart)*
 
