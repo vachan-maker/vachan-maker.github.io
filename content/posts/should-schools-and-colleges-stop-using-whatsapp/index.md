@@ -32,7 +32,7 @@ First of all, WhatsApp is owned by Facebook (Meta) and we all know that Facebook
 
 Second, WhatsApp deletes the files from their servers after a certain period of time. If you don't download a file within that specific time frame, the file will be deleted from the server and you will have to ask the sender to send you the file again. This is really annoying and has happened to me so many times.
 
-The next problem with the app is that it is usually hard to find something. Yes, the app does have a search feature but it isn't all that great. Not only that, it is also possible for you to completely miss an important message. Sometimes, the group chat does get really busy with a lot of messages and there probably may be some update or announcement buried in there. There have been occassions where I couldn't find a message or attachment and had to ask my friends to find it and send it to me (..lol).
+The next problem with the app is that it is usually hard to find something. Yes, the app does have a search feature but it isn't all that great. Not only that, it is also possible for you to completely miss an important message. Sometimes, group chats  get really busy with a lot of messages and there probably may be some update or announcement buried in there. There have been occassions where I couldn't find a message or attachment and had to ask my friends to find it and send it to me (..lol).
 
 Since the app is mainly a messaging app, it doesn't have any organizational features. You can't group documents together and create a folder. There isn't a way to group notes according to a module or a subject. The group management features of WhatsApp are also not that great either.
 
