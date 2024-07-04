@@ -16,6 +16,8 @@ The college that I study in primarily uses WhatsApp for communications. Teachers
 
 There are also groups for special events, worshops and clubs as well.
 
+I have studied in several schools and they all use the app.
+
 But in my opinion, WhatsApp is not the best option for educational institutions. Schools and colleges using WhatsApp should consider shifting to another platform.
 
 ### So why is WhatsApp widely used by educational institutions?
