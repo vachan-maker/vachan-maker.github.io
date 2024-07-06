@@ -4,13 +4,13 @@ date = 2024-07-06T14:27:30+05:30
 draft = false
 description = "There are better alternatives to Authy"
 +++
-Authy is a very popular app for storing and managing 2FA(Two Factor Authentication) tokens. When I first started activiating 2FA on my accounts, I used Authy to store all my TOTP tokens.
+Authy is a very popular app for storing and managing 2FA(Two Factor Authentication) tokens. When I first started activating 2FA on my accounts, I used Authy to store all my TOTP tokens.
 
 One of the key reasons why I went with Authy is because of its cloud sync feature and their desktop app(which is now discontinued). The cloud sync feature allowed me to access all my 2FA tokens on multiple devices.
 
-But a few months later, I decided to switch to Aegis, a free and open source offline authenticator app. Switching from Authy was a pain because the app doesn't have a feature to export all the tokens. This was super annyoing and I hated how they basically tried to jail me in. So I had to go to each of my accounts and then re-enable 2FA and scan the QR code using Aegis.
+But a few months later, I decided to switch to Aegis, a free and open source offline authenticator app. Switching from Authy was a pain because the app doesn't have a feature to export all the tokens. This was super annoying and I hated how they created a walled garden. So I had to go to each of my accounts and then re-enable 2FA and scan the QR code using Aegis.
 
-A few days ago, Authy announed that they were hacked and according to a report by [Techcrunch](https://techcrunch.com/2024/07/03/twilio-says-hackers-identified-cell-phone-numbers-of-two-factor-app-authy-users/), 33 million phone numbers were stolen. 
+A few days ago, Authy announced that they were hacked and according to a report by [Techcrunch](https://techcrunch.com/2024/07/03/twilio-says-hackers-identified-cell-phone-numbers-of-two-factor-app-authy-users/), 33 million phone numbers were stolen. 
 
 For a company that focuses on security and providing 2FA related services, this is bad news.
 
@@ -19,7 +19,7 @@ If Twilio (company behind Authy) all of a sudden decides to shut down their Auth
 So what are some alternatives to Authy?
 ### 1. [Aegis](https://getaegis.app/)
 
-Aegis is an awesome offline authenticator application. It has a nice, clean and easy to user interface and is completely free and open source. Compared to Authy, the app is overkill and offers a ton of features. It even allows you to backup your data and export all your tokens periodically. You can customise it by changing views and using custom icon packs. Also, you can orgainse and group the tokens as well. 
+Aegis is an awesome offline authenticator application. It has a nice, clean and easy to use interface and is completely free and open source. Compared to Authy, the app is overkill and offers a ton of features. It even allows you to backup your data and export all your tokens periodically. You can customize it by changing views and using custom icon packs. Also, you can organize and group the tokens as well. 
 
 I have used Aegis for years and it is an excellent choice.
 
@@ -27,13 +27,13 @@ I have used Aegis for years and it is an excellent choice.
 
 Bitwarden is a popular name among password management services. I have been using Bitwarden for more than  four years to manage all my passwords.
 
-But did you know that Bitwarden recently lauched a dedicated Authenticator app?
+But did you know that Bitwarden recently launched a dedicated Authenticator app?
 
-*The bitwarden authenticator app is a seperate app from the Bitwarden password manager app*
+*The bitwarden authenticator app is a standalone app from the Bitwarden password manager app*
 
-Currently, I am using Bitwarden Authenticator for a change and it is good. Since the app is fairly new, it is kind of barebones and doesn't offer as much as features as Aegis.
+Currently, I am using Bitwarden Authenticator for a change and it is good. Since the app is fairly new, it is kind of barebones and doesn't offer as many features as Aegis.
 
-As of writing this post, the app does not have a cloud synchronisation feature (but it is on the roadmap). All the tokens are stored on your device.
+As of writing this post, the app does not have a cloud synchronization feature (but it is on the roadmap). All the tokens are stored on your device.
 
 If you want to access your tokens on multiple devices, the bitwarden password manager app does allow you to store 2FA tokens along with all your logins. 
 
@@ -58,5 +58,6 @@ This is day 33 of [#100DaystoOffload](https://100daystooffload.com)
 
 
     
+
 
 
