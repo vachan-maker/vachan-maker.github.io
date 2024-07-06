@@ -10,11 +10,11 @@ One of the key reasons why I went with Authy is because of its cloud sync featur
 
 But a few months later, I decided to switch to Aegis, a free and open source offline authenticator app. Switching from Authy was a pain because the app doesn't have a feature to export all the tokens. This was super annoying and I hated how they created a walled garden. So I had to go to each of my accounts and then re-enable 2FA and scan the QR code using Aegis.
 
-A few days ago, Authy announced that they were hacked and according to a report by [Techcrunch](https://techcrunch.com/2024/07/03/twilio-says-hackers-identified-cell-phone-numbers-of-two-factor-app-authy-users/), 33 million phone numbers were stolen. 
+If Twilio (company behind Authy) all of a sudden decides to shut down their Authy service, will you be given the option to export your tokens? I don't think so. It is always better to use an app that gives you full control and freedom.
+
+Not only that but a few days ago, Authy announced that they were hacked and according to a report by [Techcrunch](https://techcrunch.com/2024/07/03/twilio-says-hackers-identified-cell-phone-numbers-of-two-factor-app-authy-users/), 33 million phone numbers were stolen. 
 
 For a company that focuses on security and providing 2FA related services, this is bad news.
-
-If Twilio (company behind Authy) all of a sudden decides to shut down their Authy service, will you be given the option to export your tokens? I don't think so. It is always better to use an app that gives you full control and freedom.
 
 So what are some alternatives to Authy?
 ### 1. [Aegis](https://getaegis.app/)
