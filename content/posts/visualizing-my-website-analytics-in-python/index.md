@@ -18,6 +18,6 @@ In the above pie chart, Android is the clear winner because the majority of peop
 {{<figure src = "browser.png" caption = "Browser Popularity">}}
 {{<figure src = "browservsos.png" caption = "Popularity of browsers used on various operating systems.">}}
 
-GoatCounter does already give good visualizations of the data but I decided to do it on my own just for applying what I have learned from the course. The graphs below are really basic but the whole process of using pandas and matplotlib to generate these graphs was interesting.
+GoatCounter does already give good visualizations of the data but I decided to do it on my own just for applying what I have learned from the course. The graphs above are really basic but the whole process of using pandas and matplotlib to generate these visualisations was interesting.
 
 This is day 34 of [#100DaystoOffload](https://100daystooffload.com)
