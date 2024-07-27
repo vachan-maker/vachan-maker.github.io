@@ -22,6 +22,6 @@ Here are the reasons why I selected Debian:
 2. Release of Debian Bookworm - I installed Debian on my laptop, a month after the release of Debian bookworm. At that time, the release of Debain 13 was making buzz everywhere and many Linux youtubers were doing reviews and posting videos about it. People were really excited about it and all this excitement made me want to try debian.
 3. No Snaps - I still think Ubuntu would have actually been a good option for me but the only reason I decided not to go with Ubuntu is because of how the distribution constantly forced people to use snaps.
 
-I've been using Debian for a year now and I am really happy with it. Yes, I still kind of miss having the latest updates and software on my system but thanks to flatpak I can still have access to the newest versions of software without having to use [backports](https://backports.debian.org/) (which I haven't tried yet).
+I've been using Debian for a year now and I am really happy with it. Yes, I still kind of miss having the latest updates and software on my system but thanks to flatpaks I can still have access to the newest versions of software without having to use [backports](https://backports.debian.org/) (which I haven't tried yet).
 
 This is day 35 of [#100DaystoOffload](https://100daystooffload.com)
