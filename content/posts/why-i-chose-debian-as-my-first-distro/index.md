@@ -2,7 +2,7 @@
 title = "Why I chose Debian as my first Linux distro"
 date = 2024-07-27T22:25:00+05:30
 draft = false
-description = "Why WhatsApp shouldn't be used by schools"
+description = ""
 +++
 
 Due to Microsoft's strict hardware requirements for Windows 11, I decided to ditch Windows entirely and switch to Linux in 2023. A few years back,I had attempted to try out Ubuntu but that failed miserably and I actually ended up destroying my USB drive in the process (I failed at step 1 and I still don't know how I broke my flashdrive....lol). 
