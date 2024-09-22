@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colophon on </title>
+    <link>https://vachan.me/colophon/</link>
+    <description>Recent content in Colophon on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>vachan@tutanota.com (Vachan S Panicker)</managingEditor>
+    <webMaster>vachan@tutanota.com (Vachan S Panicker)</webMaster>
+    <atom:link href="https://vachan.me/colophon/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on </title>
+    <link>https://vachan.me/wiki/</link>
+    <description>Recent content in Wikis on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>vachan@tutanota.com (Vachan S Panicker)</managingEditor>
+    <webMaster>vachan@tutanota.com (Vachan S Panicker)</webMaster>
+    <lastBuildDate>Fri, 16 Feb 2024 11:58:00 +0530</lastBuildDate>
+    <atom:link href="https://vachan.me/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigating the filesystem in Linux using the terminal</title>
+      <link>https://vachan.me/wiki/navigating-files-linux/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><author>vachan@tutanota.com (Vachan S Panicker)</author>
+      <guid>https://vachan.me/wiki/navigating-files-linux/</guid>
+      <description>&lt;h2 id=&#34;pwd&#34;&gt;pwd&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;code&gt;pwd&lt;/code&gt; command is used to print the current directory that you are in. The command always prints out the absoloute path.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cd&#34;&gt;cd&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;code&gt;cd&lt;/code&gt; command allows you to go to a different directory. For example, if you are currently in the &lt;code&gt;Music&lt;/code&gt; directory and you want to go to the subdirectory &lt;code&gt;Rick_Astley&lt;/code&gt;, all you have to enter in the terminal is &lt;code&gt;cd Rick_Astley&lt;/code&gt; . Now you are in the &lt;code&gt;Rick_Astley&lt;/code&gt; folder.&lt;/p&gt;&#xA;&lt;p&gt;To go to the root of the file system.&lt;br&gt;&#xA;&lt;code&gt;$ cd /&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;To go to your home directory&lt;br&gt;&#xA;&lt;code&gt;$ cd ~&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;To go to previous working directory&lt;br&gt;&#xA;&lt;code&gt;$ cd -&lt;/code&gt;&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

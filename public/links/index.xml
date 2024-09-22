@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on </title>
+    <link>https://vachan.me/links/</link>
+    <description>Recent content in Links on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>vachan@tutanota.com (Vachan S Panicker)</managingEditor>
+    <webMaster>vachan@tutanota.com (Vachan S Panicker)</webMaster>
+    <atom:link href="https://vachan.me/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comparing yourself to others in creative pursuits</title>
+      <link>https://jamesg.blog/2024/03/04/comparison/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <author>James</author>
+      <guid>https://jamesg.blog/2024/03/04/comparison/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generating OpenGraph images with Hugo</title>
+      <link>https://aarol.dev/posts/hugo-og-image/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <author>Aaro</author>
+      <guid>https://aarol.dev/posts/hugo-og-image/</guid>
+      <description>&lt;p&gt;Automatically generate open graph images with hugo - really cool&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>More Things You Can Do on Your Website</title>
+      <link>https://rknight.me/blog/more-things-you-can-do-on-your-website/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <author>Robb Knight</author>
+      <guid>https://rknight.me/blog/more-things-you-can-do-on-your-website/</guid>
+      <description>&lt;p&gt;I am planning to implement some things from this article in my website as well.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Please Make Your Table Headings Sticky</title>
+      <link>https://btxx.org/posts/Please_Make_Your_Table_Headings_Sticky/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <author>Bradley Taunt</author>
+      <guid>https://btxx.org/posts/Please_Make_Your_Table_Headings_Sticky/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;You only need to add 2 CSS properties on your thead&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
