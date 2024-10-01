@@ -14,13 +14,7 @@ The next day I brought the cake and I told some of my friends about it. We were 
 
 During the first interval, we told everyone not to leave and sang happy birthday and made him cut the cake. It was hilarious and he was realy surprised and yelling that it was not even his bday!
 
-{{< rawhtml >}} 
-
-<video width=100% controls autoplay>
-    <source src="fake-bday-prank/0e92a16b55ee5b70.mp4" type="video/webm">
-    Your browser does not support the video tag.  
-</video>
-
-{{< /rawhtml >}}
-
+{{< youtube oVuCR8kzZPI >}}
+{{< youtube 0RKpf3rK57I >}}
+{{< mastadon "https://fosstodon.org/@gohugoio/112128108928766995" >}}
 

@@ -1,21 +1,11 @@
-{{ $data := "" }}
-{{ $url := "https://fosstodon.org/@vachan_notes.rss" }}
-{{ with resources.GetRemote $url }}
-  {{ with .Err }}
-    {{ errorf "%s" . }}
-  {{ else }}
-    {{ $data = .Content | transform.Unmarshal }}
-  {{ end }}
-{{ else }}
-  {{ errorf "Unable to get remote resource %q" $url }}
-{{ end }}
-
-{{ with $data.channel.item }}
-  <ul>
-    {{ range . }}
-      <li>{{ .description| plainify| markdownify }}</li>
-    {{ end }}
-  </ul>
-{{ end }}
-
-
+{{- with .Get 0 }}
+  <iframe
+    src="{{ . }}/embed"
+    class="mastodon-embed" style="max-width: 100%; border: 0"
+    width="400"
+    allowfullscreen="allowfullscreen">
+  </iframe>
+  <script src="https://fosstodon.org/embed.js" async="async"></script>
+{{- else }}
+  {{- errorf "The %q shortcode requires a positional parameter: the url of the post. See %s" .Name .Position }}
+{{- end }}
