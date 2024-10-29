@@ -12,7 +12,7 @@ But since then things have changed. Now, I only use Spotify and YouTube for musi
 
 A few weeks ago, I noticed that I couldn't play some songs on RiMusic and would get an error. This is most likely because of YouTube's crackdown on third party client applications.
 
-On Spotify music discovery is much easier. Spotify's recommendation system is golden and I keep discovering new songs every week. There is a playlist for basically everything. Also since Spotify supports multiple platforms and has a web interface, I can access my playlists and favourite songs anywhere (this was not possible when using RiMusic).
+On Spotify music discovery is much easier. Spotify's recommendation system is golden and I keep discovering new songs every week. It has a ton of curated and personalized playlists. Also since Spotify supports multiple platforms and has a web interface, I can access my playlists and favourite songs anywhere (this was not possible when using RiMusic).
 
 I am currently using the free plan. Yes, the ads are annoying but I am fine with it. You can't get everything for free, right?
 
