@@ -25,4 +25,5 @@ In addition to Spotify, YouTube also recommends some great songs - usually songs
 I still find it amazing that we live in an age where we can access millions of songs from around the world within the tap of a finger.
 
 Yeah so that is really what I have to say about my switch to Spotify... I am kind of writing this post in a hurry as I have to go to college soon. I would love to hear your thoughts about this. Maybe you don't support Spotify and their use of DRM or you are probably the person who spends time tom maintain your own music library. Anyhow, drop a comment on Mastodon or  send me an email.
+
 This is day 38 of [#100DaystoOffload](https://100daystooffload.com)
