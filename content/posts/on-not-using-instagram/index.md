@@ -19,7 +19,7 @@ Another reason is privacy. Around 2020, I became aware about how companies const
 ### So what is it like to not use Instagram?
 I think I am the only in my class who don't use Instagram. 
 
-Without Instagram, I feel like I miss out on a lot of things - especially new trends, viral reels, memes and stuff. Sometimes, I kind of feel disconnected with people and the happenings around me. There instances where my friends talk about something that happened or saw on Instagram and I really have no clue what they are talking about...lol.
+Without Instagram, I feel like I miss out on a lot of things - especially new trends, viral reels, memes and stuff. Sometimes, I kind of feel disconnected with people and the happenings around me. There are instances where my friends talk about something that happened or saw on Instagram and I really have no clue what they are talking about...lol.
 
 I also miss out on a lot of posts, stories and pics from my friends. 
 
