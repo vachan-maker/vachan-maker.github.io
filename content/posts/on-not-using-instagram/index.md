@@ -17,10 +17,13 @@ The whole obsession I had about likes and followers felt unhealthy and weird to 
 Another reason is privacy. Around 2020, I became aware about how companies constantly monitor us and sell our data to make money. I also learned about open-source and privacy respecting software. I actually kind of became obsessed with only using free and libre software and took a lot of steps to make sure that companies like Google and Facebook don't use my data without my permssion. I think this is the biggest factor that made my delete my account.
 
 ### So what is it like to not use Instagram?
-Without Instagram, I feel like I miss out on a lot of things - especially new trends, viral reels, memes and stuff. (This is something I don't really care about)
-But I do miss out on a lot of posts, stories and pics from my friends. Yes, the whole fear of missing out (FOMO) thing is there but I only feel it sometimes.
-
 I am not sure about it but I think I am the only in my class who don't use Instagram. 
+
+Without Instagram, I feel like I miss out on a lot of things - especially new trends, viral reels, memes and stuff. Sometimes, I kind of feel disconnected with people and the happenings around me. There instances where my friends talk about something that happened or saw on Instagram and I really have no clue what they are talking about...lol.
+
+I also miss out on a lot of posts, stories and pics from my friends. 
+
+Yes, the whole fear of missing out (FOMO) thing is there but I only feel it occassionally and I've gotten used to it.
 
 Regardless of not using Instagram, I've managed to maintain good friendships and that is what matters the most. It is also fun to watch peoples face when I tell them I don't use Instagram...hehe.
 
