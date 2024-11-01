@@ -1,17 +1,28 @@
+:root {
+    --bg-color:#111a24;
+    --text-color:#ffffff;
+    --border-bg-color: 5px solid #f8ee00;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body {
+    background-color:var(--bg-color) ;
 }
 header {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1.5rem;
+    text-transform: lowercase;
+}
+header > h1 {
+    color: #f8ee00;
 }
 nav {
-    align-items: center;
     display: flex;
     flex-direction: row;
 }
@@ -20,4 +31,7 @@ nav ul{
     flex-direction: row;
     gap:1rem;
     list-style-type: none;
+}
+nav ul a {
+    text-decoration: none;
 }
