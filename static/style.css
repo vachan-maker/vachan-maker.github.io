@@ -1,7 +1,7 @@
 :root {
     --bg-color:#111a24;
     --text-color:#ffffff;
-    --border-bg-color: 5px solid #f8ee00;
+    --border-bg-color: 3px solid #f8ee00;
 }
 * {
     box-sizing: border-box;
@@ -13,11 +13,14 @@ body {
 }
 header {
     align-items: center;
+    border: var(--border-bg-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem;
+    margin: 2rem auto;
+    padding: 1rem;
     text-transform: lowercase;
+    width:75%;
 }
 header > h1 {
     color: #f8ee00;
