@@ -1,3 +1,16 @@
+@font-face{
+    font-family: "RIT-Kutty-Bold";
+    src: local("RIT-Kutty-Bold"),
+    	 url("../fonts/RIT-Kutty-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    unicode-range: U+0D30 - 0D3F, U+0D10 - 0D1F,U+0D70 - 0D7F;
+}
+[lang = 'ml']
+{
+  font-family: 'RIT-Kutty-Bold';
+}
 :root {
     --bg-color:#111a24;
     --text-color:#ffffff;
@@ -10,20 +23,18 @@
 }
 body {
     background-color:var(--bg-color) ;
+    color: white;
 }
 header {
     align-items: center;
     border: var(--border-bg-color);
+    border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem auto;
-    padding: 1rem;
     text-transform: lowercase;
     width:75%;
-}
-header > h1 {
-    color: #f8ee00;
 }
 nav {
     display: flex;
@@ -37,4 +48,7 @@ nav ul{
 }
 nav ul a {
     text-decoration: none;
+}
+main {
+    padding: 1rem 5rem;
 }
