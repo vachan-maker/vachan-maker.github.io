@@ -1,3 +1,4 @@
+@import url(https://fonts.bunny.net/css?family=bubblegum-sans:400|open-sans:400,800);
 @font-face{
     font-family: "RIT-Kutty-Bold";
     src: local("RIT-Kutty-Bold"),
@@ -12,9 +13,13 @@
   font-family: 'RIT-Kutty-Bold';
 }
 :root {
-    --bg-color:#111a24;
-    --text-color:#ffffff;
-    --border-bg-color: 3px solid #f8ee00;
+    --bg-color:#151320;
+    --secondary-bg-color:#282A36;
+    --text-color: #f8f8f2;
+    --border-bg-color: 3px solid var(--yellow);
+    --yellow: #f1fa8c;
+    --red: #ff5555;
+    --cyan: #8BE9FD;
 }
 * {
     box-sizing: border-box;
@@ -23,16 +28,21 @@
 }
 body {
     background-color:var(--bg-color) ;
-    color: white;
+    color: var(--text-color);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.6;
 }
 header {
     align-items: center;
+    background-color: var(--secondary-bg-color);
     border: var(--border-bg-color);
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem auto;
+    padding: 1rem;
     text-transform: lowercase;
     width:75%;
 }
@@ -48,7 +58,22 @@ nav ul{
 }
 nav ul a {
     text-decoration: none;
+    font-family: 'Bubblegum Sans';
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bubblegum Sans', sans-serif, display;
 }
 main {
     padding: 1rem 5rem;
+}
+a,
+a:visited {
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:var(--cyan);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
 }
