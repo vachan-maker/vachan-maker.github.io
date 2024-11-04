@@ -13,8 +13,9 @@
   font-family: 'RIT-Kutty-Bold';
 }
 :root {
-    --bg-color:#212121;
-    --secondary-bg-color:#282A36;
+    --bg-color: #311D3F;
+    --secondary-bg-color: #522546;
+    --accent-color: #E23E57;
     --text-color: #f8f8f2;
     --border-bg-color: 3px solid var(--yellow);
     --yellow: #f1fa8c;
@@ -28,14 +29,17 @@
 }
 body {
     font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 header {
     align-items: center;
     width: 100%;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--secondary-bg-color);
+    color: #fff;
     display: flex;
-    padding: 0rem 1rem;
+    border-bottom: 5px solid var(--accent-color);
+    padding: 0.5rem 1rem;
 
 }
 nav {
@@ -49,7 +53,19 @@ nav ul {
 }
 nav ul a {
     text-decoration: none;
+    padding: 1rem;
 }
 a, a:visited {
     color: white;
+}
+.intro {
+    margin: 1rem auto;
+    background-color: var(--secondary-bg-color);
+    box-shadow: 6px 6px black;
+    padding: 5rem;
+}
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding:1rem;
 }
