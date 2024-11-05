@@ -1,6 +1,6 @@
 <h2>Recent Posts</h2>
 <ul class = "postList">
-   {{ range first 5 (where .Site.RegularPages "Type" "posts" ) }}
+   {{ range first 6 (where .Site.RegularPages "Type" "posts" ) }}
    <li class="postItem"><a href="{{ .Permalink }}" title = "{{ .Description }}">{{ .Title }}</a>
   {{ $formattedDate := .Date.Format "2006-01-02"}}
   <time datetime="{{$formattedDate}}">{{ .Date.Format "Jan 2" }}</time>

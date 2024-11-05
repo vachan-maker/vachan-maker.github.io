@@ -29,16 +29,16 @@
 }
 body {
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 1.1rem;
     line-height: 1.6;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 header {
     align-items: center;
@@ -61,7 +61,13 @@ nav ul {
 }
 nav ul a {
     text-decoration: none;
+    text-transform: lowercase;
     padding: 1rem;
+}
+nav ul a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
 }
 a, a:visited {
     color: white;
@@ -76,4 +82,17 @@ main {
     max-width: 60rem;
     margin: 0 auto;
     padding:1rem;
+}
+.postList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+.postItem {
+    background-color: var(--secondary-bg-color);
+    box-shadow: 4px 6px 0px 0px black;
+    padding:2rem;
+    list-style-type: none;
+    width: 100%;
 }
