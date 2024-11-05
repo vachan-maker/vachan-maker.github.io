@@ -1,5 +1,9 @@
 enableGitInfo = true
 baseURL = 'https://vachan.me'
+[languages]
+  [languages.en]
+    languageCode = 'en-UK'
+
 [module]
   [module.hugoVersion]
     extended = true
