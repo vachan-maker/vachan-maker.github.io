@@ -150,4 +150,7 @@ section h2 {
         display: flex;
         flex-direction: column;
     }
+    nav {
+        display: none;
+    }
 }
