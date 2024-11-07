@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=bubblegum-sans:400|open-sans:400,800);
+@import url(https://fonts.bunny.net/css?family=merriweather:400|work-sans:400,800);
 @font-face{
     font-family: "RIT-Kutty-Bold";
     src: local("RIT-Kutty-Bold"),
@@ -28,12 +28,20 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 800;
+}
 body {
-    font-family: 'Open Sans';
-    font-size: 1.25rem;
-    line-height: 1.6;
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: 'Work Sans';
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+main {
+    margin: 0 auto;
+    max-width: 58rem;
+    padding:0.5rem;
 }
 h1 {
     font-size: 2.5rem;
@@ -41,18 +49,18 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+p {
+    margin: 1.5rem auto;
+}
 header {
     align-items: center;
-    width: 100%;
     background-color: var(--secondary-bg-color);
-    color: #fff;
-    display: flex;
     border-bottom: 2px solid var(--accent-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-around;
     padding: 0.5rem 1rem;
-
-}
-nav {
-    margin: 0 auto;
+    width: 100%;
 }
 nav ul {
     display: flex;
@@ -84,24 +92,17 @@ a, a:visited {
     margin: 2rem auto;
     padding: 3rem;
 }
-main {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding:1rem;
-}
 .postList {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    padding: 0 1rem;
     margin-bottom: 2rem;
 }
 .postItem {
-    background-color: var(--secondary-bg-color);
-    border-radius: 5px;
-    box-shadow:var(--box-shadow);
-    padding:2rem;
-    list-style-type: none;
-    width: 100%;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 footer {
     background-color: var(--secondary-bg-color);
