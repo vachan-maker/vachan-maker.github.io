@@ -5,12 +5,14 @@
     {{ $date := .Date.Format "02.01.2006" }}
     {{ $lastmod := .Lastmod.Format "02.01.2006" }}
         <article>
-            <h1 class = "postTitle">{{ .Title }}</h1>
+            <div class="postHeader">
+            <h2 class = "postTitle">{{ .Title }}</h2>
+            <p class="postMeta"><strong>Posted On:</strong> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+
             {{ if .Description }}
                 <p>{{ .Description }}</p>
             {{ end }}
-            <p class="postMeta"><strong>Posted On:</strong> {{ .Date.Format "Mon Jan 2, 2006" }} </p>
-            <hr />
+            </div>
             {{ .Content }}
             {{ if ne $lastmod $date }} 
             <em>Last Updated On: {{ .Lastmod.Format "Mon Jan 2, 2006" }}</em>
