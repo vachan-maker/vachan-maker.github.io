@@ -2,14 +2,17 @@
     <h1 class = "logo" lang = "ml">വചൻ</h1>
    <nav>
         <ul>
+            <li>
+                <a href="#" class="menuItem">Menu</a>
+            </li>
             {{ range .Site.Menus.header }}
                 <li>
-                    <a href="{{ .URL }}">
+                    <a href="{{ .URL }}" class="menuHideItem">
                         {{- .Name -}}
                     </a>
                 </li>
                 {{ end }}
-                <li onclick="confetti({
+                <li class="menuHideItem" onclick="confetti({
                     spread: 180,
                     particleCount: 200
                   });">🥳</li>

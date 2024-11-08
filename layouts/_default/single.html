@@ -18,6 +18,6 @@
             <em>Last Updated On: {{ .Lastmod.Format "Mon Jan 2, 2006" }}</em>
             {{ end }}
         </article>
-        <p><a href = "mailto: {{ .Site.Params.author.email }}?subject={{ .Title }}&body=post-link:{{ .Permalink }}">Comment via Email</p>
+        <p><a href = "mailto: {{ .Site.Params.author.email }}?subject={{ .Title }}&body=post-link:{{ .Permalink }}">Comment via Email</a></p>
         <p><a href = "/index.xml">RSS Feed</a></p>
 {{ end }}
