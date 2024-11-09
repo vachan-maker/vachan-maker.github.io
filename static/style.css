@@ -44,7 +44,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Work Sans',sans-serif,-apple-system,system;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.5;
 }
 main {
@@ -68,7 +68,7 @@ header {
     color: var(--text-color);
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     width: 100%;
 }
 nav ul {
@@ -136,6 +136,9 @@ section h2 {
 }
 .menuItem {
     display: none;
+}
+.title {
+    margin-bottom: 2rem;
 }
 @media (max-width: 768px) {
     .intro {

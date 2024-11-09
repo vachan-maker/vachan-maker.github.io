@@ -26,13 +26,13 @@ baseURL = 'https://vachan.me'
 
 [menu]
   [[menu.header]]
-	name = "Home"
-	weight = 1
-	url = "/" 
-  [[menu.header]]
     name = "Posts"
-    weight = 2
+    weight = 1
     url = "/posts"
+   [[menu.header]]
+    name = "Wiki"
+    weight = 2
+    url = "/wiki"
   [[menu.header]]
     name = "Now"
     weight = 3

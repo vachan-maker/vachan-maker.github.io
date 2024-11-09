@@ -1,8 +1,8 @@
 {{ define "main"}}
 <h2 class="title">{{ .Title }}</h2>
 {{ range .Pages.GroupByPublishDate "2006" }}
-<h3>{{ .Key }}</h3>
 <ul class = "postList">
+  <h3>{{ .Key }}</h3>
   {{ range .Pages}}
   <li class="postItem"><a href="{{ .Permalink }}" title = "{{ .Description }}">{{ .Title }}</a>
   {{ $formattedDate := .Date.Format "2006-01-02"}}
