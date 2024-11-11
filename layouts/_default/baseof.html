@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+
 <head>
     <title>{{ block "title" . }}
         {{ .Site.Title }}
@@ -10,16 +11,15 @@
 </head>
 
 <body>
-<script data-goatcounter="https://vachan.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-        {{ partial "header.html" . }}
-            <main>
-                {{ block "main" . }}
-                {{ end }}
-            </main>
+    <script data-goatcounter="https://vachan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    {{ partial "header.html" . }}
+    <main>
+        {{ block "main" . }}
+        {{ end }}
+    </main>
 
 
-        {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
 
 </body>
 

@@ -1,16 +1,18 @@
+{{ define "main"}}
 <nav>
     <dl>
-        {{ range .Site.Menus.header }}
-            <dt>
-                <a href="{{ .URL }}" class="menuHideItem">
-                    {{- .Name -}}
-                </a>
-            </dt>
-            <dd>{{- .Params.dd -}}</dd>
-            {{ end }}
-            <li class="menuHideItem" onclick="confetti({
-                spread: 180,
-                particleCount: 200
-              });">🥳</li>
-            </dl>
-    </nav>
+        <dt><a href="/posts">Posts</a></dt>
+        <dd>My blog posts</dd>
+        <dt><a href="/wiki">Wiki</a></dt>
+        <dd>A place to share the things that I have learned. Basically, its a wiki</dd>
+        <dt><a href="/now">Now</a></dt>
+        <dd>What I am up to these days</dd>
+        <dt><a href="/interests">Interests</a></dt>
+        <dd>Things that I love</dd>
+        <dt><a href="/about">About</a></dt>
+        <dd>All about me</dd>
+        <dt><a href="/contact">Contact</a> </dt>
+        <dd>How to get in touch with me</dd>
+    </dl>
+</nav>
+{{ end }}
