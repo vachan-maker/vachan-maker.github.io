@@ -49,11 +49,13 @@ body {
     font-family: 'Work Sans',sans-serif,-apple-system,system;
     font-size: 1.2rem;
     line-height: 1.6;
+    height:100%;
 }
 main {
     margin: 0 auto;
     max-width: 50rem;
     padding: 0 1rem;
+    min-height: 67vh;
 }
 h1 {
     font-size: 2.6rem;
@@ -145,6 +147,7 @@ img {
 footer {
     background-color: var(--secondary-bg-color);
     border-top: 5px solid var(--accent-color);
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
