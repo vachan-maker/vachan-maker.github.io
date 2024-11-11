@@ -1,4 +1,8 @@
+{{ define "title"}}
+{{ .Title }} | {{ .Site.Params.author.name }}
+{{ end }}
 {{ define "main"}}
+<h2 class="postTitle">{{ .Title }}</h2>
 <nav>
     <dl>
         <dt><a href="/posts">Posts</a></dt>
