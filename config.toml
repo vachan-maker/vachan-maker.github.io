@@ -28,26 +28,32 @@ baseURL = 'https://vachan.me'
   [[menu.header]]
     name = "Posts"
     weight = 1
+    dd = "Just my thoughts, opinions and stuff."
     url = "/posts"
    [[menu.header]]
     name = "Wiki"
     weight = 2
+    dd = "Some things that I have learned - basically my personal wiki"
     url = "/wiki"
   [[menu.header]]
     name = "Now"
     weight = 3
+    dd = "What I am doing now"
     url = "/now/"
   [[menu.header]]
     name = "Uses"
+    dd = "What I use daily"
     weight = 4
     url = "/uses"
   [[menu.header]]
     name = "About"
+    dd = "All about me!"
     weight = 5
     url = "/about"
   [[menu.header]]
     name = "Contact"
     weight = 6
+    dd = "How to get in touch with me"
     url = "/contact"
 [[params.social]]
 key = 0
@@ -85,6 +91,11 @@ url = "https://twitter.com/vsp2020"
   section = ['html', 'rss']
   taxonomy = ['html']
   term = ['html']
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
 
 
 

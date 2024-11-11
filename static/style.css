@@ -37,6 +37,9 @@
     margin: 0;
     padding: 0;
 }
+.logo a{
+    text-decoration: none;
+}
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
 }
@@ -45,15 +48,15 @@ body {
     color: var(--text-color);
     font-family: 'Work Sans',sans-serif,-apple-system,system;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 main {
     margin: 0 auto;
-    max-width: 58rem;
+    max-width: 50rem;
     padding: 0 1rem;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 h2 {
     font-size: 2rem;
@@ -88,6 +91,21 @@ nav ul a:hover {
 }
 a, a:visited {
     color: var(--text-color);
+}
+ul {
+    list-style-position: inside;
+}
+figure {
+    margin: 3rem auto;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 .intro {
     align-items: center;
@@ -136,6 +154,9 @@ section h2 {
 }
 .menuItem {
     display: none;
+}
+.menuList {
+    list-style-type: none;
 }
 .title {
     margin-bottom: 2rem;

@@ -1,0 +1,16 @@
+<nav>
+    <dl>
+        {{ range .Site.Menus.header }}
+            <dt>
+                <a href="{{ .URL }}" class="menuHideItem">
+                    {{- .Name -}}
+                </a>
+            </dt>
+            <dd>{{- .Params.dd -}}</dd>
+            {{ end }}
+            <li class="menuHideItem" onclick="confetti({
+                spread: 180,
+                particleCount: 200
+              });">🥳</li>
+            </dl>
+    </nav>
