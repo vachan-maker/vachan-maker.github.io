@@ -34,7 +34,7 @@ baseURL = 'https://vachan.me'
     name = "Wiki"
     weight = 2
     dd = "Some things that I have learned - basically my personal wiki"
-    url = "/wiki"
+    url = "/til"
   [[menu.header]]
     name = "Now"
     weight = 3

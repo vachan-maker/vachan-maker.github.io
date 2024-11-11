@@ -1,9 +1,11 @@
+
 {{ define "title"}}
 {{ .Title }} | {{ .Site.Params.author.name }}
 {{ end }}
 
 {{ define "main" }}
 <h2 class="title">{{ .Title }}</h2>
+<p>{{ .Params.intro }}</p>
 
     <article>
         {{ .Content }}
