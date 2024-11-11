@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
 
-<head>
-    <title>{{ block "title" . }}
-        {{ .Site.Title }}
-        {{ end }}</title>
+        {{ partial "head.html" . }}
+    </head>
 
-    {{ partial "head.html" . }}
+    <body>
+        <script
+            data-goatcounter="https://vachan.goatcounter.com/count"
+            async
+            src="//gc.zgo.at/count.js"></script>
+        {{ partial "header.html" . }}
+        <main>{{ block "main" . }} {{ end }}</main>
 
-</head>
-
-<body>
-    <script data-goatcounter="https://vachan.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    {{ partial "header.html" . }}
-    <main>
-        {{ block "main" . }}
-        {{ end }}
-    </main>
-
-
-    {{ partial "footer.html" . }}
-
-</body>
-
+        {{ partial "footer.html" . }}
+    </body>
 </html>
