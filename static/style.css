@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=merriweather:400|work-sans:400,800);
+@import url(https://fonts.bunny.net/css?family=merriweather:400|work-sans:400,700);
 @font-face{
     font-family: "RIT-Kutty-Bold";
     src: local("RIT-Kutty-Bold"),
@@ -37,11 +37,8 @@
     margin: 0;
     padding: 0;
 }
-.logo a{
+header a{
     text-decoration: none;
-}
-h1,h2,h3,h4,h5,h6 {
-    font-weight: 800;
 }
 body {
     background-color: var(--bg-color);
@@ -56,6 +53,15 @@ main {
     max-width: 50rem;
     padding: 0 1rem;
     min-height: 67vh;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+header > h1  {
+    margin: unset;
 }
 h1 {
     font-size: 2.6rem;
@@ -76,10 +82,10 @@ h5 {
 h6 {
     font-size: 0.3rem;
 }
-main, article > p {
-    margin: 1.5rem auto;
+p {
+    margin-bottom: 1.5rem;
 }
-header {
+body > header {
     align-items: center;
     background-color: var(--secondary-bg-color);
     border-bottom: 2px solid var(--accent-color);
@@ -97,7 +103,7 @@ nav ul {
 nav ul a {
     text-decoration: none;
     text-transform: lowercase;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 nav ul a:hover {
     text-decoration: underline;
@@ -122,14 +128,11 @@ img {
     max-width: 100%;
     height: auto;
 }
-.intro {
-    align-items: center;
-    display: flex;
+aside {
     background-color: var(--secondary-bg-color);
     border-radius: 4px;
     box-shadow: var(--box-shadow);
     gap: 2rem;
-    justify-content: center;
     margin: 2rem auto;
     padding: 3rem;
 }
@@ -154,18 +157,19 @@ img {
 .postMeta{
     margin-bottom: 1rem;
 }
-.postHeader {
+article header{
     border-bottom: 1px solid var(--accent-color);
 }
 footer {
     background-color: var(--secondary-bg-color);
     border-top: 5px solid var(--accent-color);
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem;
 }
-.menuItem {
+footer > nav ul a{
+    text-decoration: underline;
+}
+
+nav ul li:first-child {
     display: none;
 }
 .menuList {
@@ -185,10 +189,10 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .menuHideItem {
+    nav ul li {
         display: none;
     }
-    .menuItem {
+    nav ul li:first-child {
         display: block;
     }
 }

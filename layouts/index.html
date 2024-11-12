@@ -13,13 +13,9 @@
 <body>
     {{ partial "header.html" . }}
     <main>
-        <div class="intro">
-            <div class="child">
-            </div>
-            <div class="child-second">
+        <aside>
                 {{ .Content }}
-            </div>
-        </div>
+        </aside>
         <section>
             {{ partial "recentPosts.html" . }}
         </section>
