@@ -55,7 +55,7 @@ main {
     margin: 0rem auto 1rem auto;
     max-width: 50rem;
     padding: 0 1rem;
-    min-height: 67vh;
+    min-height: 100vh;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
