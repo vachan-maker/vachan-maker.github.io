@@ -1,14 +1,16 @@
 {{ define "main"}}
 <h2 class="title">{{ .Title }}</h2>
 {{ range .Pages.GroupByPublishDate "2006" }}
-<ul class = "postList">
-  <h3>{{ .Key }}</h3>
-  {{ range .Pages}}
-  <li class="postItem"><a href="{{ .Permalink }}" title = "{{ .Description }}">{{ .Title }}</a>
-  {{ $formattedDate := .Date.Format "2006-01-02"}}
-  <time datetime="{{$formattedDate}}" class = "postTime">{{ .Date.Format "Jan 2" }}</time>
-  </li>
-{{ end }}
-</ul>
-{{ end }}
+<h3>{{ .Key }}</h3>
+
+{{ range .Pages}}
+<article class="postList">
+  <p><a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a>
+  {{ $formattedDate := .Date.Format "2006-01-02"}}</p>
+  <time datetime="{{$formattedDate}}" class="postTime"
+    >{{ .Date.Format "Jan 2" }}</time
+  >
+</article>
+{{ end }} 
+{{ end }} 
 {{ end }}

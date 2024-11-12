@@ -44,7 +44,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: 'Work Sans',sans-serif,-apple-system,system;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.6;
     height:100%;
 }
@@ -113,8 +113,25 @@ nav ul a:hover {
 a, a:visited {
     color: var(--text-color);
 }
-ul {
+ul,ol,dl {
     list-style-position: inside;
+}
+dl {
+    margin: 1rem;
+}
+.fullPageMenuList dt{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.fullPageMenuList dd {
+    margin-bottom: 1.5rem;
+}
+ol li {
+    margin-bottom: 1rem;
+}
+article {
+    padding: 0.5rem 0;
+    text-wrap: pretty;
 }
 figure {
     margin: 3rem auto;
@@ -136,9 +153,9 @@ aside {
     margin: 2rem auto;
     padding: 3rem;
 }
-.postList {
-    padding: 0 1rem;
-    margin-bottom: 2rem;
+.postList p{
+    margin-bottom: 0;
+
 }
 .postItem {
     display: flex;
