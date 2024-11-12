@@ -149,9 +149,8 @@ aside {
     background-color: var(--secondary-bg-color);
     border-radius: 4px;
     box-shadow: var(--box-shadow);
-    gap: 2rem;
     margin: 2rem auto;
-    padding: 3rem;
+    padding: 2rem;
 }
 .postList p{
     margin-bottom: 0;
@@ -167,9 +166,6 @@ aside {
 }
 .postTime {
     font-size: smaller;
-}
-.postTitle {
-    margin: 0;
 }
 .postMeta{
     margin-bottom: 1rem;
