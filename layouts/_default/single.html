@@ -2,7 +2,7 @@
 define "main" }} {{ $date := .Date.Format "02.01.2006" }} {{ $lastmod :=
 .Lastmod.Format "02.01.2006" }}
 <article>
-    <header>
+    <header class="postHeader">
         <h2>{{ .Title }}</h2>
         <p>
             <strong>Posted On:</strong> {{ .Date.Format "Mon Jan 2, 2006" }}

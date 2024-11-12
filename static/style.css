@@ -37,6 +37,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-size: 100%;
+}
 header a{
     text-decoration: none;
 }
@@ -49,7 +52,7 @@ body {
     height:100%;
 }
 main {
-    margin: 0 auto;
+    margin: 0rem auto 1rem auto;
     max-width: 50rem;
     padding: 0 1rem;
     min-height: 67vh;
@@ -64,23 +67,23 @@ header > h1  {
     margin: unset;
 }
 h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
 }
 h2 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
 }
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 h5 {
-    font-size: 0.6rem;
+    font-size: 1.25rem;
 }
 h6 {
-    font-size: 0.3rem;
+    font-size: 1rem;
 }
 p {
     margin-bottom: 1.5rem;
@@ -117,11 +120,10 @@ ul,ol,dl {
     list-style-position: inside;
 }
 dl {
-    margin: 1rem;
+    margin: 0 auto;
 }
 .fullPageMenuList dt{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: larger;
 }
 .fullPageMenuList dd {
     margin-bottom: 1.5rem;
@@ -129,9 +131,11 @@ dl {
 ol li {
     margin-bottom: 1rem;
 }
-article {
-    padding: 0.5rem 0;
-    text-wrap: pretty;
+.postArticle {
+    margin: 2rem 0;
+}
+.postArticle p{
+    margin-bottom: 0;
 }
 figure {
     margin: 3rem auto;
@@ -152,31 +156,30 @@ aside {
     margin: 2rem auto;
     padding: 2rem;
 }
-.postList p{
-    margin-bottom: 0;
-
-}
-.postItem {
-    display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
 .postTime {
     font-size: smaller;
 }
+
 .postMeta{
     margin-bottom: 1rem;
 }
 article header{
     border-bottom: 1px solid var(--accent-color);
 }
+.postHeader {
+    margin-bottom: 1rem;
+}
+.postHeader h2 {
+    margin-bottom: 0;
+}
+.postHeader p {
+    margin-bottom: 0.5rem;
+}
 footer {
     background-color: var(--secondary-bg-color);
     border-top: 5px solid var(--accent-color);
     padding: 1rem;
+    font-size: smaller;
 }
 footer > nav ul a{
     text-decoration: underline;
@@ -189,19 +192,6 @@ nav ul li:first-child {
     list-style-type: none;
 }
 @media (max-width: 768px) {
-    .intro {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .intro img {
-        width: 75%;
-        height: auto;
-    }
-    .postList {
-        display: flex;
-        flex-direction: column;
-    }
     nav ul li {
         display: none;
     }
