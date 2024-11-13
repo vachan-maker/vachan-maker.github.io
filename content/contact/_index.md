@@ -9,7 +9,7 @@ You can also send me an [email](mailto:vachan@tutanota.com).
 
 I don't use Instagram, Snapchat or Facebook.
 
-### Other profiles
+## Other profiles
 - PixelFed
 - [GitHub](https://github.com/vachan-maker)
 - [AniList](https://anilist.co/user/vchn/)

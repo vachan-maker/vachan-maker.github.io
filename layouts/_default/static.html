@@ -1,6 +1,6 @@
 {{ define "title"}} {{ .Title }} | {{ .Site.Params.author.name }} {{ end }} {{
 define "main" }}
-<h2>{{ .Title }}</h2>
+<h1>{{ .Title }}</h1>
 <p>{{ .Params.intro }}</p>
-<article>{{ .Content }}</article>
+{{ .Content }}
 {{ end }}
