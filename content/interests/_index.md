@@ -4,7 +4,7 @@ layout = "static"
 url="/interests"
 intro = "Things that I am interested in or love to do"
 +++
-### Music
+## Music
 I listen to a wide variety of music. If a song sounds good, I will be probably listening to it in an infinite loop...lol. When writing assignments or studying, I usually listen to lofi, classical,movie soundtracks or instrumental music.
 
 I am a big fan of Coldplay and love listening to their songs. I also listen to songs by Taylor Swift, Ed Sheeran, Olivia Rodrigo and Billie Eilish (just to name a few).

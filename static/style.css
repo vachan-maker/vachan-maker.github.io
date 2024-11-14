@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=poppins:400,500,700,800);
+@import url(https://fonts.bunny.net/css?family=poppins:200,400,500,700,800);
 @font-face{
     font-family: "RIT-Kutty-Bold";
     src: local("RIT-Kutty-Bold"),
@@ -26,6 +26,7 @@
     --spacing-medium:1.2em;
     --spacing-large:1.44em;
     --spacing-xl:1.728em;
+    --spacing-xxl:2.0736em;
     --text-size-80: 0.694rem;
     --text-size-90: 0.833rem;
     --text-size-100: 1rem;
@@ -41,7 +42,7 @@
     --bg-color: #efefef;
     --secondary-bg-color:#e3dff2;
     --accent-color:#212121;
-    --text-color: #212121;
+    --text-color: #000000;
     }
 
     
@@ -114,8 +115,8 @@ p {
     margin: 0;
 }
 #hey-there {
-    margin-bottom: var(--spacing-small);
-    margin-top: var(--spacing-small);
+    margin-bottom: var(--spacing-medium);
+    margin-top: var(--spacing-medium);
 }
 body > header {
     align-items: center;
@@ -146,6 +147,16 @@ nav ul a:hover {
 a, a:visited {
     color: var(--text-color);
 }
+a {
+    color: var(--text-color);
+  }
+  
+  a:hover,
+  a:visited,
+  a:focus {
+    color: var(--text-color);
+    text-decoration: none;
+  }
 ul,ol,dl {
     list-style-position: inside;
     margin-top: var(--spacing-medium);
@@ -154,6 +165,14 @@ ul,ol,dl {
 ul li {
     margin-top:var(--spacing-small);
     margin-top: var(--spacing-small);
+}
+.pageHeader {
+    margin-bottom: var(--spacing-xxl);
+}
+.pageHeader p{
+    margin: 0;
+    font-weight: 200;
+    font-size: var(--text-size-300);
 }
 .fullPageMenuList dt{
     font-size: var(--text-size-300)
@@ -180,7 +199,7 @@ figcaption p{
     text-align: center;
     margin: unset;
 }
-img {
+img,video {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
@@ -200,6 +219,9 @@ aside {
 }
 article header{
     border-bottom: 1px solid var(--accent-color);
+}
+article {
+    max-width: 65ch;
 }
 .postHeader {
     margin-bottom: var(--spacing-medium);
@@ -221,9 +243,7 @@ footer {
     padding: 1rem;
     font-size: var(--text-size-90);
 }
-footer > nav ul a{
-    text-decoration: underline;
-}
+
 
 nav ul li:first-child {
     display: none;
