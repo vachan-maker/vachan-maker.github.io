@@ -86,6 +86,7 @@ h5,
 h6 {
   font-weight: 700;
   line-height: 1.1;
+  text-wrap: balance;
 }
 header > h1 {
   margin: unset;
@@ -113,6 +114,11 @@ p {
   font-size: var(--text-size-200);
   margin-top: var(--spacing-large);
   margin-bottom: var(--spacing-large);
+  text-wrap: pretty;
+}
+p,li,figcaption {
+    text-wrap: pretty;
+    max-width: 63ch;
 }
 #logo {
   font-size: var(--text-size-500);
@@ -233,9 +239,6 @@ aside {
 }
 article header {
   border-bottom: 1px solid var(--accent-color);
-}
-article {
-  max-width: 65ch;
 }
 footer {
   background-color: var(--secondary-bg-color);
