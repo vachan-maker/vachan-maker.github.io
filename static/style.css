@@ -6,9 +6,6 @@
   font-display: swap;
   font-style: normal;
 }
-[lang="ml"] {
-  font-family: "RIT-Kutty-Bold", "Noto Sans Malayalam", system-ui;
-}
 :root {
   --bg-color: #212121;
   --secondary-bg-color: #2b2b2b;
@@ -51,29 +48,18 @@
 html {
   font-size: 100%;
 }
-header a {
-  text-decoration: none;
-}
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.125rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
   height: 100%;
 }
-main {
-  margin: 0 auto;
-  max-width: 52rem;
-  padding: var(--spacing-large) var(--spacing-medium);
-  min-height: 100vh;
-}
-section {
-  margin-top: var(--spacing-xl);
-}
-.recentPosts {
-  padding-left: var(--spacing-medium);
+[lang="ml"] {
+  font-family: "RIT-Kutty-Bold", "Noto Sans Malayalam", system-ui;
 }
 h1,
 h2,
@@ -85,8 +71,25 @@ h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+body > header {
+  align-items: center;
+  background-color: var(--secondary-bg-color);
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-small) var(--spacing-medium);
+  width: 100%;
+}
 header > h1 {
   margin: unset;
+}
+a,
+a:hover,
+a:visited,
+a:focus {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 h1 {
@@ -114,60 +117,36 @@ p {
   text-wrap: pretty;
 }
 p,li,figcaption {
-    text-wrap: pretty;
-    max-width: 63ch;
+  text-wrap: pretty;
+  max-width: 63ch;
 }
-#logo {
-  font-size: var(--text-size-500);
-  margin: 0;
+main {
+  margin: 0 auto;
+  max-width: 45rem;
+  padding: var(--spacing-base);
+  min-height: 100vh;
+}
+section {
+  margin-top: var(--spacing-xl);
 }
 
-body > header {
-  align-items: center;
-  background-color: var(--secondary-bg-color);
-  border-bottom: 2px solid var(--accent-color);
-  color: var(--text-color);
-  display: flex;
-  justify-content: space-between;
-  padding: var(--spacing-small) var(--spacing-medium);
-  width: 100%;
-}
 nav ul {
   margin: unset;
   display: flex;
   list-style-type: none;
 }
-nav ul a {
+nav a {
   text-decoration: none;
   text-transform: lowercase;
   padding: 0.5rem 1rem;
 }
-nav ul a:hover {
+nav a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
   text-decoration-thickness: 3px;
 }
-a,
-a:visited {
-  color: var(--text-color);
-}
-a {
-  color: var(--text-color);
-}
 
-a:hover,
-a:visited,
-a:focus {
-  color: var(--text-color);
-  text-decoration: none;
-}
-header:has(h1):has(time) {
-    margin-bottom: var(--spacing-medium);
-}
-header:has(h1):has(time) p{
-    margin-top: 0;
-    margin-bottom: var(--spacing-medium);
-}
+
 ul,
 ol,
 dl {
@@ -179,30 +158,11 @@ ul li {
   margin-top: var(--spacing-small);
   margin-top: var(--spacing-small);
 }
-.pageHeader {
-  margin-bottom: var(--spacing-xxl);
-}
-.pageHeader p {
-  margin: 0;
-  font-weight: 200;
-  font-size: var(--text-size-300);
-}
-.fullPageMenuList dt {
-  font-size: var(--text-size-300);
-}
-.fullPageMenuList dd {
-  margin-bottom: var(--spacing-medium);
-}
+
 ol li {
   margin-bottom: 1rem;
 }
-.postArticle {
-  margin: var(--spacing-xl) 0;
-}
-.postArticle p {
-  margin-bottom: 0;
-  margin-top: 0;
-}
+
 figure {
   margin: 3rem auto;
 }
@@ -223,6 +183,10 @@ aside {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
   padding: var(--spacing-large);
+}
+aside p {
+  margin-top: var(--spacing-medium);
+  margin-bottom: var(--spacing-small);
 }
 .postTime {
   font-size: smaller;
@@ -254,4 +218,40 @@ nav ul li:first-child {
   nav ul li:first-child {
     display: block;
   }
+}
+
+.recentPosts {
+  padding-left: var(--spacing-medium);
+}
+#logo {
+  font-size: var(--text-size-500);
+  margin: 0;
+}
+.pageHeader {
+  margin-bottom: var(--spacing-xxl);
+}
+.pageHeader p {
+  margin: 0;
+  font-weight: 300;
+  font-size: var(--text-size-300);
+}
+.fullPageMenuList dt {
+  font-size: var(--text-size-300);
+}
+.fullPageMenuList dd {
+  margin-bottom: var(--spacing-medium);
+}
+.postHeader {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+}
+.postHeader time {
+  font-size: smaller;
+}
+.postArticle {
+  margin: var(--spacing-xl) 0;
+}
+.postArticle p {
+  margin-bottom: 0;
+  margin-top: 0;
 }

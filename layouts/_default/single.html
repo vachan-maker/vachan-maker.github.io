@@ -3,12 +3,8 @@ define "main" }} {{ $date := .Date.Format "02.01.2006" }} {{ $lastmod :=
 .Lastmod.Format "02.01.2006" }}
 <article>
     <header class="postHeader">
-        <h1>{{ .Title }}</h1>
         <time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Format "Jan 2, 2006" }}</time>
-
-        {{ if .Description }}
-        <p>{{ .Description }}</p>
-        {{ end }}
+        <h1>{{ .Title }}</h1>
     </header>
     {{ .Content }} {{ if ne $lastmod $date }}
     <em>Last Updated On: {{ .Lastmod.Format "Mon Jan 2, 2006" }}</em>
