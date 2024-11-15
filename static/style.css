@@ -84,7 +84,12 @@ body > header {
 header > h1 {
   margin: unset;
 }
-a,
+header a {
+  text-decoration: none;
+}
+a {
+  color: var(--text-color);
+}
 a:hover,
 a:visited,
 a:focus {
