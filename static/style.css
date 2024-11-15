@@ -155,7 +155,6 @@ nav a:hover {
 ul,
 ol,
 dl {
-  list-style-position: inside;
   margin-top: var(--spacing-medium);
   margin-bottom: var(--spacing-medium);
 }
@@ -192,6 +191,11 @@ aside {
 aside p {
   margin-top: var(--spacing-medium);
   margin-bottom: var(--spacing-small);
+}
+code {
+  background-color:#2b2b2b;
+  color: white;
+  font-family: monospace;
 }
 .postTime {
   font-size: smaller;
