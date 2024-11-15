@@ -151,7 +151,9 @@ nav a:hover {
   text-decoration-thickness: 3px;
 }
 
-
+ul,ol {
+  list-style-position: inside;
+}
 ul,
 ol,
 dl {

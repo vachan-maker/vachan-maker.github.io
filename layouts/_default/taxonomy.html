@@ -1,0 +1,17 @@
+{{ define "title"}} {{ .Title }} | {{ .Site.Params.author.name }} {{ end }} {{
+  define "main" }}
+  <header class="pageHeader">
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.intro }}
+  <p>{{ .Params.intro }}</p>  
+  {{ end }}
+  </header>
+  
+  <ul>
+    {{ range .Pages}}
+      <li><a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a></li>
+    {{ end }} 
+    </ul>
+    </section>
+  {{ end }}
+  

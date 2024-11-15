@@ -6,9 +6,9 @@
 <h3>{{ .Key }}</h3>
 {{ range .Pages}}
 {{ $formattedDate := .Date.Format "2006-01-02"}}
-<article class="linkArticle">
+<article class="postArticle">
 
-    <h4 class="linkTitle"><a href="{{ .Permalink }}"> {{.Title }}</a></h4>
+    <p><a href="{{ .Params.link }}"> {{.Title }}</a></p>
     <p class = "linkMeta">{{ .Params.author.name }} |  <time datetime="{{$formattedDate}}" class = "postTime">{{ .Date.Format "Jan 2" }}</time></p>
     <p>{{ .Content }}</p>
 

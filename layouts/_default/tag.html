@@ -1,0 +1,18 @@
+{{ define "main"}}
+<h1 class="title">Posts tagged "{{ .Title }}"</h1>
+{{ range .Pages.GroupByPublishDate "2006" }}
+<section>
+<h2>{{ .Key }}</h2>
+
+{{ range .Pages}}
+<article class="postArticle">
+  <p><a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a>
+  {{ $formattedDate := .Date.Format "2006-01-02"}}</p>
+  <time datetime="{{$formattedDate}}" class="postTime"
+    >{{ .Date.Format "Jan 2" }}</time
+  >
+</article>
+{{ end }} 
+</section>
+{{ end }} 
+{{ end }}

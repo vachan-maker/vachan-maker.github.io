@@ -85,7 +85,11 @@ key = 5
 name = "X"
 url = "https://twitter.com/vsp2020"
 
-
+[taxonomies]
+cateogry = "categories"
+tag = "tags"
+linktag = "linktags"
+linkcategory = "linkcategories"
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
