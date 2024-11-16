@@ -88,7 +88,7 @@ h6 {
   text-wrap: balance;
 }
 body > header {
-  align-items: align-baseline;
+  align-items: baseline;
   background-color: var(--secondary-bg-color);
   border-bottom: 2px solid var(--accent-color);
   color: var(--text-color);
@@ -234,7 +234,7 @@ nav ul li:first-child {
   list-style-type: none;
 }
 .menuItem {
-  font-weight: bold;
+  font-size: large;
 }
 @media (max-width: 768px) {
   body {
