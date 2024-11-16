@@ -65,7 +65,7 @@ body {
   line-height: 1.6;
 }
 main,header,footer {
-  padding: var(--spacing-base);
+  padding: var(--spacing-sm) var(--spacing-base);
 }
 header, footer {
   grid-column: 1/4;
@@ -88,12 +88,13 @@ h6 {
   text-wrap: balance;
 }
 body > header {
-  align-items: center;
+  align-items: align-baseline;
   background-color: var(--secondary-bg-color);
   border-bottom: 2px solid var(--accent-color);
   color: var(--text-color);
   display: flex;
   justify-content: space-between;
+  margin-bottom: var(--spacing-base);
 }
 header > h1 {
   margin: unset;
@@ -231,6 +232,9 @@ nav ul li:first-child {
 }
 .menuList {
   list-style-type: none;
+}
+.menuItem {
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   body {
