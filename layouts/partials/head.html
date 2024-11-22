@@ -9,3 +9,6 @@
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="prefetch" href="/menu" as="document">
 {{ partial "schema.html" . }}
+{{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
