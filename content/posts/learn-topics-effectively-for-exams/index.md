@@ -1,7 +1,7 @@
 +++
 title = 'Learn effectively'
 date = 2024-03-21
-draft = false
+draft = true
 description = "\"If you can't explain it to a six year old, you don't understand it yourself.\""
 +++
 _This is a note to myself_
