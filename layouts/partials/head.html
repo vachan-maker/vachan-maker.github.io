@@ -8,7 +8,7 @@
 {{ template "_internal/twitter_cards.html" . }}
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="prefetch" href="/menu" as="document">
-{{ partial "schema.html" . }}
+{{/*  {{ partial "schema.html" . }}  */}}
 <link rel="alternate"
       type="application/rss+xml"
       href="{{.Site.BaseURL }}/index.xml"
